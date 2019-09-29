@@ -12,3 +12,4 @@ RUN cd /single_login_src
 RUN git clone https://github.com/trusch/libbcrypt
 RUN cd /single_login_src/libbcrypt
 RUN mkdir build && cd build && cmake .. && make && sudo make install && sudo ldconfig
+gi
