@@ -42,7 +42,7 @@ A android login example with the corresponding server code and server docker fil
 - 服务端数据安全方面，服务端用的是bcrypt加密存储用户的敏感信息，即使被拖库也能充分的保证用户敏感信息的安全
 - 由于grpc的设计原因，服务端暂时主动给任意客户端发消息，即使tcp连接还在，所以客户端使用的是轮询的方式来判断当前是否已经被T下线
 
-![Image](https://octodex.github.com/images/yaktocat.png)
+![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/abc.png)
 
 
 
