@@ -1,0 +1,66 @@
+===== Information about the build process: =====
+Build was run at 2019-09-08 02:24:53 on host 'Mojave-2.local'
+
+Build was done on  Darwin-18.6.0 using x86_64
+Build was done using cmake 3.15.3 
+
+===== Compiler flags used (from the 'sql/' subdirectory): =====
+File 'sql/CMakeFiles/sql.dir/flags.make' is not yet found.
+
+Pointer size: 8
+
+===== Feature flags used: =====
+-- Cache values
+BOOST_INCLUDE_DIR:PATH=/tmp/mysql-client-20190908-23921-9nhjuk/mysql-5.7.23/boost/boost_1_59_0
+CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_EXECUTABLE_FORMAT:STRING=MACHO
+CMAKE_INSTALL_PREFIX:PATH=/usr/local/Cellar/mysql-client/5.7.23_1
+CMAKE_OSX_ARCHITECTURES:STRING=
+CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
+CMAKE_OSX_SYSROOT:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk
+COMMUNITY_BUILD:BOOL=ON
+CRYPTO_LIBRARY:FILEPATH=/usr/local/opt/openssl@1.1/lib/libcrypto.dylib
+DOWNLOAD_BOOST:BOOL=OFF
+DOWNLOAD_BOOST_TIMEOUT:STRING=600
+ENABLED_PROFILING:BOOL=ON
+ENABLE_DTRACE:BOOL=ON
+ENABLE_GCOV:BOOL=OFF
+ENABLE_GPROF:BOOL=OFF
+ENABLE_MEMCACHED_SASL:BOOL=OFF
+ENABLE_MEMCACHED_SASL_PWDB:BOOL=OFF
+FEATURE_SET:STRING=community
+FOUND_EDITLINE_READLINE:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include
+INSTALL_LAYOUT:STRING=STANDALONE
+INSTALL_PKGCONFIGDIR:PATH=
+LOCAL_BOOST_DIR:FILEPATH=/tmp/mysql-client-20190908-23921-9nhjuk/mysql-5.7.23/boost/boost_1_59_0
+LOCAL_BOOST_ZIP:FILEPATH=LOCAL_BOOST_ZIP-NOTFOUND
+MYSQL_DATADIR:PATH=/usr/local/Cellar/mysql-client/5.7.23_1/data
+MYSQL_KEYRINGDIR:PATH=/usr/local/Cellar/mysql-client/5.7.23_1/keyring
+MYSQL_MAINTAINER_MODE:BOOL=OFF
+OPENSSL_INCLUDE_DIR:PATH=/usr/local/opt/openssl@1.1/include
+OPENSSL_LIBRARY:FILEPATH=/usr/local/opt/openssl@1.1/lib/libssl.dylib
+OPENSSL_ROOT_DIR:PATH=/usr/local/opt/openssl@1.1
+OPTIMIZER_TRACE:BOOL=ON
+TMPDIR:PATH=P_tmpdir
+WITH_ASAN:BOOL=OFF
+WITH_ASAN_SCOPE:BOOL=OFF
+WITH_BOOST:PATH=/tmp/mysql-client-20190908-23921-9nhjuk/mysql-5.7.23/boost
+WITH_CLIENT_PROTOCOL_TRACING:BOOL=ON
+WITH_DEBUG:BOOL=OFF
+WITH_DEFAULT_COMPILER_OPTIONS:BOOL=ON
+WITH_DEFAULT_FEATURE_SET:BOOL=ON
+WITH_EXTRA_CHARSETS:STRING=all
+WITH_INNODB_MEMCACHED:BOOL=OFF
+WITH_LIBEVENT:STRING=bundled
+WITH_LIBWRAP:BOOL=OFF
+WITH_LZ4:STRING=bundled
+WITH_MSAN:BOOL=OFF
+WITH_NUMA:BOOL=OFF
+WITH_RAPID:BOOL=ON
+WITH_SSL:STRING=yes
+WITH_TEST_TRACE_PLUGIN:BOOL=OFF
+WITH_UBSAN:BOOL=OFF
+WITH_VALGRIND:BOOL=OFF
+WITH_ZLIB:STRING=bundled
+
+===== EOF =====
