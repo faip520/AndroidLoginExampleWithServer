@@ -1,0 +1,5 @@
+server_message_getter = interface +c {
+    static try_login(host_and_port: string, user_name: string, user_password: string): string;
+    static try_register(host_and_port: string, user_name: string, user_password: string): string;
+    static try_status(host_and_port: string, user_name: string, user_token: string): string;
+}
