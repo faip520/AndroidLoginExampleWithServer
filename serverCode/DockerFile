@@ -12,4 +12,6 @@ RUN cd /single_login_src
 RUN git clone https://github.com/trusch/libbcrypt
 RUN cd /single_login_src/libbcrypt
 RUN mkdir build && cd build && cmake .. && make && sudo make install && sudo ldconfig
-gi
+
+RUN sudo service mysql restart
+CMD [ "./single_login_src/SingleLoginServer/bazel-bin/examples/greeter_server" ]
