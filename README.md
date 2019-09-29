@@ -31,6 +31,12 @@ A android login example with the corresponding server code and server docker fil
 - 给Android Studio配置好android sdk和ndk的路径
 - 电脑本地的/usr/local/bin/protoc文件和/usr/local/bin/grpc_cpp_plugin要存在，如果不存在可以通过brew install grpc protobuf来安装
 - 然后就可以在Android Studio上编译执行了
+- 建议在Android本地模拟器上运行本demo，并且根据你用的模拟器的本地转发ip配置一条host，比如我用的腾讯手游助手host是这样的：10.0.3.2        www.myserver.com，域名在java层代码里可以配置，目前配置的是www.myserver.com
+
+### 服务端
+- 服务端是在
+
+
 
 
 
