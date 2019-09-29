@@ -24,7 +24,7 @@ A android login example with the corresponding server code and server docker fil
 ### 服务端
 - 服务端的核心代码都在serverCode/SingleLoginServer/examples/cpp/helloworld/greeter_server.cc这一个文件里面
 
-## 编译 于 运行
+## 编译与运行
 ### 客户端
 - 暂时只支持在mac or linux上编译
 - 将clientCode/AndroidLoginClient文件夹导入到Android Studio里面
@@ -34,7 +34,15 @@ A android login example with the corresponding server code and server docker fil
 - 建议在Android本地模拟器上运行本demo，并且根据你用的模拟器的本地转发ip配置一条host，比如我用的腾讯手游助手host是这样的：10.0.3.2        www.myserver.com，域名在java层代码里可以配置，目前配置的是www.myserver.com
 
 ### 服务端
-- 服务端是在
+- 服务端在serverCode目录下执行docker-compose up就会自动编译并执行
+
+### 架构设计
+- 客户端与服务端走的tls + https通讯，保证通讯层面的信息安全
+- 应用层面，客户端会将敏感数据执行rsa公钥加密，然后传给服务端，服务端会用自己的私玥来执行rsa解密
+- 服务端数据安全方面，服务端用的是bcrypt加密存储用户的敏感信息，即使被拖库也能充分的保证用户敏感信息的安全
+- 由于grpc的设计原因，服务端暂时主动给任意客户端发消息，即使tcp连接还在，所以客户端使用的是轮询的方式来判断当前是否已经被T下线
+
+![Image](https://octodex.github.com/images/yaktocat.png)
 
 
 
