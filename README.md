@@ -133,11 +133,10 @@ MD5(用户名 + 时间戳 + 随机数)
 ## 服务端日志文件解析
 下面是服务端日志文件格式的实例：
 > [2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Server init success
+> 
 > [2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Server listening on 0.0.0.0:50051
+> 
 > [2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Check SQL parameter str = 123456
-> [2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Check SQL parameter str = 123456, check passed!
-> [2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Check SQL parameter str = 123456
-> [2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Check SQL parameter str = 123456, check passed!
 
 服务端日志文件格式是这样的：
 > [时间][SessionID][DEBUG或者ERROR] 日志内容
