@@ -1,0 +1,7 @@
+version: '3'
+services:
+  single-login-service:
+    build: .
+    command: bash -c "sudo service mysql restart && ./single_login_src/SingleLoginServer/bazel-bin/examples/greeter_server"
+    ports:
+      - "50051:50051"
