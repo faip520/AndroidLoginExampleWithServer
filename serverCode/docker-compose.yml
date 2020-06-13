@@ -1,6 +1,0 @@
-version: '3'
-services:
-  single-login-service:
-    build: .
-    ports:
-      - "50051:50051"
