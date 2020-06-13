@@ -140,7 +140,7 @@ MD5(用户名 + 时间戳 + 随机数)
 
 服务端日志文件格式是这样的：
 > [时间][SessionID][DEBUG或者ERROR] 日志内容
-- 时间包括日志和具体时间
+- 时间包括具体的日期和时间
 - SessionID每次新请求都会更新，可以用SessionID来区分不同的请求
 - DEBUG表示是调试日性志，ERROR表示是错误日志
 - 每一行的最后是具体的日志内容
@@ -162,7 +162,7 @@ mysql++       |3.2.5      |mysql连接与查询的c++ sdk库
 将客户端工程导入对应版本的Android Studio既可编译运行
 
 ## 编译运行环境构建
-编译运行环境都是Ubuntu环境，在ubuntu容器的shell下，可以通过下面的命令构建完整的编译运行环境
+编译运行环境都是Ubuntu环境，在Ubuntu容器的shell下，可以通过下面的命令构建完整的编译运行环境
 ```
 # 安装依赖组件
 sudo apt-get update && apt-get install -y sudo
