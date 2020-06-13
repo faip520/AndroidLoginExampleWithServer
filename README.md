@@ -238,30 +238,11 @@ ServerIPAndPort       |string      |服务端监听的ip和端口
 ## 代码结构
 ### 客户端代码
 - 客户端的java层核心代码在clientCode/AndroidLoginClient/app/src/main/java文件夹里面
-- 客户端的native层核心代码基本都在clientCode/AndroidLoginClient/app/src/main/cpp/grpc_server_message_getter.cpp这一个文件里面
+- 客户端的native层核心代码基本都在SingleLoginServer/Client/ClientSource/src/java/com/faip/piggy文件夹里
 
 ### 服务端代码
-- 服务端的核心代码都在serverCode/SingleLoginServer/examples/cpp/helloworld/greeter_server.cc这一个文件里面
-
-## 编译与运行
-### 客户端
-- 暂时只支持在mac or linux上编译
-- 将clientCode/AndroidLoginClient文件夹导入到Android Studio里面
-- 给Android Studio配置好android sdk和ndk的路径
-- 电脑本地的/usr/local/bin/protoc文件和/usr/local/bin/grpc_cpp_plugin要存在，如果不存在可以通过brew install grpc protobuf来安装
-- 然后就可以在Android Studio上编译执行了
-- 建议在Android本地模拟器上运行本demo，并且根据你用的模拟器的本地转发ip配置一条host，比如我用的腾讯手游助手host是这样的：10.0.3.2        www.myserver.com，域名在java层代码里可以配置，目前配置的是www.myserver.com
-
-### 服务端
-- 服务端在serverCode目录下执行docker-compose up就会自动编译并执行
-
-### 架构设计
-- 客户端与服务端走的tls + https通讯，保证通讯层面的信息安全
-- 应用层面，客户端会将敏感数据执行rsa公钥加密，然后传给服务端，服务端会用自己的私玥来执行rsa解密
-- 服务端数据安全方面，服务端用的是bcrypt加密存储用户的敏感信息，即使被拖库也能充分的保证用户敏感信息的安全
-- 由于grpc的设计原因，服务端暂时主动给任意客户端发消息，即使tcp连接还在，所以客户端使用的是轮询的方式来判断当前是否已经被T下线
-
-![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/abc.png)
+- 服务端的核心代码都在SingleLoginServer/Server/ServerSource/src文件夹下
+- 核心文件是greeter_server.cc
 
 ## 遗留问题与未来可优化方向
 由于时间关系，本项目目前还是有一些地方设计的并不是那么合理，如果有更多时间的话可以针对性的优化以下一些问题：
