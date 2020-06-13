@@ -1,0 +1,449 @@
+{
+  "buildFiles": [
+    "/Users/willweizhao/Downloads/AndroidLoginClient/app/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/zlib/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/cares/cares/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/protobuf/cmake/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/stack/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/lhash/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/err/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/buf/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/base64/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/bytestring/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/pool/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/rc4/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/conf/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/chacha/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/poly1305/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/curve25519/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/digest_extra/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/cipher_extra/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/rand_extra/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/bio/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/bn_extra/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/obj/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/asn1/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/engine/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/dh/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/dsa/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/rsa_extra/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/ec_extra/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/ecdh/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/ecdsa_extra/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/cmac/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/evp/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/hkdf/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/pem/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/x509/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/x509v3/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/pkcs7/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/pkcs8/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/test/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/crypto/fipsmodule/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/third_party/fiat/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/ssl/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/ssl/test/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/fipstools/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/tool/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/bio/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/blowfish/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/cast/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/cfb/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/des/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/dh/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/dsa/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/evp/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/obj/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/rc4/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/ripemd/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/rsa/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/ssl/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/x509/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/decrepit/xts/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/gflags/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/benchmark/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/benchmark/src/CMakeLists.txt",
+    "/Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/benchmark/test/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "link_main_test-Release-armeabi-v7a": {
+      "artifactName": "link_main_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target link_main_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/link_main_test"
+    },
+    "templated_fixture_test-Release-armeabi-v7a": {
+      "artifactName": "templated_fixture_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target templated_fixture_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/templated_fixture_test"
+    },
+    "bssl-Release-armeabi-v7a": {
+      "artifactName": "bssl",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target bssl",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/boringssl/tool/bssl"
+    },
+    "basic_test-Release-armeabi-v7a": {
+      "artifactName": "basic_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target basic_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/basic_test"
+    },
+    "crypto-Release-armeabi-v7a": {
+      "artifactName": "crypto",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target crypto",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/boringssl/crypto/libcrypto.a"
+    },
+    "gen_percent_encoding_tables-Release-armeabi-v7a": {
+      "artifactName": "gen_percent_encoding_tables",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target gen_percent_encoding_tables",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/gen_percent_encoding_tables"
+    },
+    "grpc_csharp_ext-Release-armeabi-v7a": {
+      "artifactName": "grpc_csharp_ext",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target grpc_csharp_ext",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/build/intermediates/cmake/release/obj/armeabi-v7a/libgrpc_csharp_ext.so"
+    },
+    "decrepit_test-Release-armeabi-v7a": {
+      "artifactName": "decrepit_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target decrepit_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/boringssl/decrepit/decrepit_test"
+    },
+    "grpc_create_jwt-Release-armeabi-v7a": {
+      "artifactName": "grpc_create_jwt",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target grpc_create_jwt",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/grpc_create_jwt"
+    },
+    "boringssl_gtest-Release-armeabi-v7a": {
+      "artifactName": "boringssl_gtest",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target boringssl_gtest",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/boringssl/libboringssl_gtest.a"
+    },
+    "grpc_cronet-Release-armeabi-v7a": {
+      "artifactName": "grpc_cronet",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target grpc_cronet",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/libgrpc_cronet.a"
+    },
+    "benchmark_main-Release-armeabi-v7a": {
+      "artifactName": "benchmark_main",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target benchmark_main",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/src/libbenchmark_main.a"
+    },
+    "server_message_getter_lib-Release-armeabi-v7a": {
+      "artifactName": "server_message_getter_lib",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target server_message_getter_lib",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/build/intermediates/cmake/release/obj/armeabi-v7a/libserver_message_getter_lib.so"
+    },
+    "skip_with_error_test-Release-armeabi-v7a": {
+      "artifactName": "skip_with_error_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target skip_with_error_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/skip_with_error_test"
+    },
+    "grpc++_cronet-Release-armeabi-v7a": {
+      "artifactName": "grpc++_cronet",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target grpc++_cronet",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/libgrpc++_cronet.a"
+    },
+    "user_counters_tabular_test-Release-armeabi-v7a": {
+      "artifactName": "user_counters_tabular_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target user_counters_tabular_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/user_counters_tabular_test"
+    },
+    "ssl_test-Release-armeabi-v7a": {
+      "artifactName": "ssl_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target ssl_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/boringssl/ssl/ssl_test"
+    },
+    "benchmark-Release-armeabi-v7a": {
+      "artifactName": "benchmark",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target benchmark",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/src/libbenchmark.a"
+    },
+    "grpc++-Release-armeabi-v7a": {
+      "artifactName": "grpc++",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target grpc++",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/libgrpc++.a"
+    },
+    "libprotobuf-lite-Release-armeabi-v7a": {
+      "artifactName": "libprotobuf-lite",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target libprotobuf-lite",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/protobuf/libprotobuf-lite.a"
+    },
+    "grpc_plugin_support-Release-armeabi-v7a": {
+      "artifactName": "grpc_plugin_support",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target grpc_plugin_support",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/libgrpc_plugin_support.a"
+    },
+    "acountry-Release-armeabi-v7a": {
+      "artifactName": "acountry",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target acountry",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/cares/cares/bin/acountry"
+    },
+    "ahost-Release-armeabi-v7a": {
+      "artifactName": "ahost",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target ahost",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/cares/cares/bin/ahost"
+    },
+    "reporter_output_test-Release-armeabi-v7a": {
+      "artifactName": "reporter_output_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target reporter_output_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/reporter_output_test"
+    },
+    "zlib-Release-armeabi-v7a": {
+      "artifactName": "zlib",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target zlib",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/build/intermediates/cmake/release/obj/armeabi-v7a/libz.so"
+    },
+    "complexity_test-Release-armeabi-v7a": {
+      "artifactName": "complexity_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target complexity_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/complexity_test"
+    },
+    "grpc++_unsecure-Release-armeabi-v7a": {
+      "artifactName": "grpc++_unsecure",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target grpc++_unsecure",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/libgrpc++_unsecure.a"
+    },
+    "fixture_test-Release-armeabi-v7a": {
+      "artifactName": "fixture_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target fixture_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/fixture_test"
+    },
+    "piggy_proto_lib-Release-armeabi-v7a": {
+      "artifactName": "piggy_proto_lib",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target piggy_proto_lib",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/build/intermediates/cmake/release/obj/armeabi-v7a/libpiggy_proto_lib.so"
+    },
+    "adig-Release-armeabi-v7a": {
+      "artifactName": "adig",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target adig",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/cares/cares/bin/adig"
+    },
+    "filter_test-Release-armeabi-v7a": {
+      "artifactName": "filter_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target filter_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/filter_test"
+    },
+    "ssl-Release-armeabi-v7a": {
+      "artifactName": "ssl",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target ssl",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/boringssl/ssl/libssl.a"
+    },
+    "zlibstatic-Release-armeabi-v7a": {
+      "artifactName": "zlibstatic",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target zlibstatic",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/zlib/libz.a"
+    },
+    "example-Release-armeabi-v7a": {
+      "artifactName": "example",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target example",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/zlib/example"
+    },
+    "decrepit-Release-armeabi-v7a": {
+      "artifactName": "decrepit",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target decrepit",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/boringssl/decrepit/libdecrepit.a"
+    },
+    "diagnostics_test-Release-armeabi-v7a": {
+      "artifactName": "diagnostics_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target diagnostics_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/diagnostics_test"
+    },
+    "options_test-Release-armeabi-v7a": {
+      "artifactName": "options_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target options_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/options_test"
+    },
+    "output_test_helper-Release-armeabi-v7a": {
+      "artifactName": "output_test_helper",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target output_test_helper",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/liboutput_test_helper.a"
+    },
+    "check_epollexclusive-Release-armeabi-v7a": {
+      "artifactName": "check_epollexclusive",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target check_epollexclusive",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/check_epollexclusive"
+    },
+    "gflags_nothreads_static-Release-armeabi-v7a": {
+      "artifactName": "gflags_nothreads_static",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target gflags_nothreads_static",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/gflags/libgflags_nothreads.a"
+    },
+    "gpr-Release-armeabi-v7a": {
+      "artifactName": "gpr",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target gpr",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/libgpr.a"
+    },
+    "user_counters_test-Release-armeabi-v7a": {
+      "artifactName": "user_counters_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target user_counters_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/user_counters_test"
+    },
+    "map_test-Release-armeabi-v7a": {
+      "artifactName": "map_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target map_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/map_test"
+    },
+    "bssl_shim-Release-armeabi-v7a": {
+      "artifactName": "bssl_shim",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target bssl_shim",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/boringssl/ssl/test/bssl_shim"
+    },
+    "grpc-Release-armeabi-v7a": {
+      "artifactName": "grpc",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target grpc",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/libgrpc.a"
+    },
+    "benchmark_test-Release-armeabi-v7a": {
+      "artifactName": "benchmark_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target benchmark_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/benchmark_test"
+    },
+    "c-ares-Release-armeabi-v7a": {
+      "artifactName": "c-ares",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target c-ares",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/cares/cares/lib/libcares.a"
+    },
+    "crypto_test-Release-armeabi-v7a": {
+      "artifactName": "crypto_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target crypto_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/boringssl/crypto/crypto_test"
+    },
+    "grpc_verify_jwt-Release-armeabi-v7a": {
+      "artifactName": "grpc_verify_jwt",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target grpc_verify_jwt",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/grpc_verify_jwt"
+    },
+    "cxx03_test-Release-armeabi-v7a": {
+      "artifactName": "cxx03_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target cxx03_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/cxx03_test"
+    },
+    "donotoptimize_test-Release-armeabi-v7a": {
+      "artifactName": "donotoptimize_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target donotoptimize_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/donotoptimize_test"
+    },
+    "libprotobuf-Release-armeabi-v7a": {
+      "artifactName": "libprotobuf",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target libprotobuf",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/protobuf/libprotobuf.a"
+    },
+    "register_benchmark_test-Release-armeabi-v7a": {
+      "artifactName": "register_benchmark_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target register_benchmark_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/register_benchmark_test"
+    },
+    "example64-Release-armeabi-v7a": {
+      "artifactName": "example64",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target example64",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/zlib/example64"
+    },
+    "grpc_print_google_default_creds_token-Release-armeabi-v7a": {
+      "artifactName": "grpc_print_google_default_creds_token",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target grpc_print_google_default_creds_token",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/grpc_print_google_default_creds_token"
+    },
+    "minigzip-Release-armeabi-v7a": {
+      "artifactName": "minigzip",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target minigzip",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/zlib/minigzip"
+    },
+    "multiple_ranges_test-Release-armeabi-v7a": {
+      "artifactName": "multiple_ranges_test",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target multiple_ranges_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/benchmark/test/multiple_ranges_test"
+    },
+    "grpc_unsecure-Release-armeabi-v7a": {
+      "artifactName": "grpc_unsecure",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target grpc_unsecure",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/libgrpc_unsecure.a"
+    },
+    "minigzip64-Release-armeabi-v7a": {
+      "artifactName": "minigzip64",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target minigzip64",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/third_party/zlib/minigzip64"
+    },
+    "gen_hpack_tables-Release-armeabi-v7a": {
+      "artifactName": "gen_hpack_tables",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target gen_hpack_tables",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/gen_hpack_tables"
+    },
+    "address_sorting-Release-armeabi-v7a": {
+      "artifactName": "address_sorting",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target address_sorting",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/libaddress_sorting.a"
+    },
+    "gen_legal_metadata_characters-Release-armeabi-v7a": {
+      "artifactName": "gen_legal_metadata_characters",
+      "buildCommand": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a --target gen_legal_metadata_characters",
+      "abi": "armeabi-v7a",
+      "output": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/grpc/outputs/armeabi-v7a/gen_legal_metadata_characters"
+    }
+  }
+}

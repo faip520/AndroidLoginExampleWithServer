@@ -1,0 +1,2 @@
+include ':app', ':LoginUIModule'
+rootProject.name='AndroidLoginClient'

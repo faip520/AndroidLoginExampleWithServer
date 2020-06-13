@@ -1,0 +1,44 @@
+CMake Warning (dev) at /Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/boringssl/CMakeLists.txt:309 (elseif):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "AMD64" will no longer be dereferenced when the
+  policy is set to NEW.  Since the policy is not set the OLD behavior will be
+  used.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- git Version: v1.4.0-e776aa02
+-- Version: 1.4.0
+-- Performing Test HAVE_THREAD_SAFETY_ATTRIBUTES
+-- Performing Test HAVE_THREAD_SAFETY_ATTRIBUTES -- failed to compile
+-- Performing Test HAVE_STD_REGEX
+CMake Warning at /Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/benchmark/cmake/CXXFeatureCheck.cmake:38 (message):
+  If you see build failures due to cross compilation, try setting
+  HAVE_STD_REGEX to 0
+Call Stack (most recent call first):
+  /Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/benchmark/CMakeLists.txt:225 (cxx_feature_check)
+
+
+-- Performing Test HAVE_STD_REGEX -- success
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+CMake Warning at /Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/benchmark/cmake/CXXFeatureCheck.cmake:38 (message):
+  If you see build failures due to cross compilation, try setting
+  HAVE_POSIX_REGEX to 0
+Call Stack (most recent call first):
+  /Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/benchmark/CMakeLists.txt:227 (cxx_feature_check)
+
+
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+CMake Warning at /Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/benchmark/cmake/CXXFeatureCheck.cmake:38 (message):
+  If you see build failures due to cross compilation, try setting
+  HAVE_STEADY_CLOCK to 0
+Call Stack (most recent call first):
+  /Users/willweizhao/Downloads/AndroidLoginClient/grpc/third_party/benchmark/CMakeLists.txt:235 (cxx_feature_check)
+
+
+-- Performing Test HAVE_STEADY_CLOCK -- success

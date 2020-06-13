@@ -1,0 +1,10 @@
+{
+    "ServerCertPath": "/single_login_src/SingleLoginServer/etc/serverCert.cert",
+    "ServerCertPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverPrikey.key",
+    "ServerDecryptPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key",
+    "ServerDatabaseName": "single_login",
+    "ServerDatabaseIP": "localhost",
+    "ServerDatabaseUserName": "root",
+    "ServerDatabaseUserPassword": "12345678",
+    "ServerIPAndPort": "0.0.0.0:50051"
+ }

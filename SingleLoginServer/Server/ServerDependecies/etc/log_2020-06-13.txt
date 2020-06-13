@@ -1,0 +1,1596 @@
+[2020-06-13 12:09:32]	[DEBUG]	Server listening on 0.0.0.0:50051
+[2020-06-13 12:13:01]	[DEBUG]	Init server, load config file final result servercert = -----BEGIN CERTIFICATE-----
+MIIFUjCCAzoCAQEwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgMAkNBMRUwEwYDVQQHDAxTYW5GcmFuY2lzY28xDzANBgNVBAoMBkdvb2dsZTEQ
+MA4GA1UECwwHeW91dHViZTEZMBcGA1UEAwwQd3d3Lm15c2VydmVyLmNvbTAeFw0x
+OTA5MjUxOTA4MDlaFw0yMDA5MjQxOTA4MDlaMG8xCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UEBwwMU2FuRnJhbmNpc2NvMQ8wDQYDVQQKDAZHb29nbGUx
+EDAOBgNVBAsMB3lvdXR1YmUxGTAXBgNVBAMMEHd3dy5teXNlcnZlci5jb20wggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDUR4x8u/w6wmIs9BHsWbAWcZyW
+nacQdxZh+ko1z7d26ybkfwUrw3KSeuwntEsOWNKrkt0ZvNs4OTDFshbEgkr6mkmp
+PTgd9PAZ0os4Hu7EMBy2E9el8XEt9FC/aqgbg9Mvj68s2Xc7I2BcgmIt6BQ48FRH
+54gVGf6vH6WFiSVStI4Nwcrhnf/EtPVcQwRHGYQu7jPnYBScDrz3w4Gnzxrexo35
+PqEcqZAVcQMEHASjqU6sDNhdLPzVoyRMpkofe6ykuE5E1qqbWGo7B+Rf7BfrFQ1R
+Tu8PYeOfN9GE46tnAAscsdAX/5AOL+kgx3ZCcMefJpizJOWxa8cG2dfOhiBTsfzu
+ipIqdR+kfLXJ4UcstegDsmr86vuP6KCCICidsjNK3WBX67w5huIDcnBx1LsReUhm
+9oFk+u2GC5uwnE9ksyubUJaJ+kKSh5Jnl7GFhtXX0C/ziM+CE1hEy1tXKMk+n0QK
+OJXAV/nxXCqVrm6oYJN4uSAKSzUJF8hzEyK4zm5h7sLjiYPvy7DMYpYNlPC4wHM7
+iYVDxKcE/VBOX1VjjNqmwlQYyb0D2jmXlJ9Es0DpUwMFmvZjVsatdarAcKl/I0gq
+6kKYofx8NMV9wP9rVhLnbLc8AKmC8TQl18SwYRbamJqbzyNFaHd/zDqWRRQP4cOi
+oWmJ57qQ2vUXEvWtRQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDT45/aFYUvd28v
+vHnw23bObJdF0X7l28ecB6W9WAt2gKBWQr0S2uhW0qfmUsVZ96h4x8KyPF0YCDD4
+tz2SL+Z84WiUZbg1uiY2FZsAjJTb+2lsWbJWSudSMCvyElDnMw6Wv5W1nIFBdE5f
++GaVWrv7dNW8uAUaBt3CtmYZ08EAtB/rtAMLUe+ufi0dh0BVST5UM8XZK/66kcV/
+9QSwclrV4FH+Hu8bJxwf4cOqBSThe0AZtiH8quCTyDgf0CdNNywWSVwyDFBng7/4
+PZNAHNoWFe6Pa/nVmR0TvSgxIZwTWGTEnH5qT9yv/D5nY3eHhgDD77lDjA5Dg2ib
+OEleXojDY0/0bQiqiRmJUbaPmNfbinmGLzWniAXeLHX4GfZkiRQx/STJ9bbdH3lu
+QsBrYRNsmwby4+Lrlk6OkauVq32qwznYQtnMkS51+LdUf+QOrQJr9maTm0AbQtsS
+y4mBMU44utP+yKq4GKO5UYbrWC/V+MmyHDdNMKv8nHndwcnoEEHJ+J0RAvN/fJdw
+YV5Vbf/0S1qmybYNizgdKT3tKpvzDHLyPTV2ujlGVv1I9D0tVu5Eh2jE4vL9mQaO
++1yL1PeHgVBfi2Km4nRr/Xdp20G3l2eyrR7nOBZ2SHKHVre+OXxY4emkEWkMmLAO
+lBEws9a1sDU+m49mH4/NX7qanxiTCw==
+-----END CERTIFICATE-----
+Init log file, log file full path = /single_login_src/SingleLoginServer/etc/log_2020-06-13.txt
+[2020-06-13 12:13:01]	[DEBUG]	Init server, load config file final result serverkey = -----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+Init log file, log file full path = /single_login_src/SingleLoginServer/etc/log_2020-06-13.txt
+[2020-06-13 12:13:01]	[DEBUG]	Init server, load config file final result server_private_key = ----
+Init log file, log file full path = /single_login_src/SingleLoginServer/etc/log_2020-06-13.txt
+[2020-06-13 12:13:01]	[DEBUG]	Init server, load config file final result single_login_server_database_name = single_login
+Init log file, log file full path = /single_login_src/SingleLoginServer/etc/log_2020-06-13.txt
+[2020-06-13 12:13:01]	[DEBUG]	Init server, load config file final result single_login_server_database_ip = localhost
+Init log file, log file full path = /single_login_src/SingleLoginServer/etc/log_2020-06-13.txt
+[2020-06-13 12:13:01]	[DEBUG]	Init server, load config file final result single_login_server_database_username = root
+Init log file, log file full path = /single_login_src/SingleLoginServer/etc/log_2020-06-13.txt
+[2020-06-13 12:13:01]	[DEBUG]	Init server, load config file final result single_login_server_database_password = 12345678
+Init log file, log file full path = /single_login_src/SingleLoginServer/etc/log_2020-06-13.txt
+[2020-06-13 12:13:01]	[DEBUG]	Init server, load config file final result single_login_server_ip_and_port = 0.0.0.0:50051
+Init log file, log file full path = /single_login_src/SingleLoginServer/etc/log_2020-06-13.txt
+[2020-06-13 12:13:01]	[DEBUG]	UUID = bfb2f8da-486c-4d15-8566-7e846fd42c49
+Init log file, log file full path = /single_login_src/SingleLoginServer/etc/log_2020-06-13.txt
+[2020-06-13 12:13:01]	[DEBUG]	Server init success
+Init log file, log file full path = /single_login_src/SingleLoginServer/etc/log_2020-06-13.txt
+[2020-06-13 12:13:01]	[DEBUG]	Server listening on 0.0.0.0:50051
+[2020-06-13 12:15:36][DEBUG]Init server, load config file final result servercert = -----BEGIN CERTIFICATE-----
+MIIFUjCCAzoCAQEwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgMAkNBMRUwEwYDVQQHDAxTYW5GcmFuY2lzY28xDzANBgNVBAoMBkdvb2dsZTEQ
+MA4GA1UECwwHeW91dHViZTEZMBcGA1UEAwwQd3d3Lm15c2VydmVyLmNvbTAeFw0x
+OTA5MjUxOTA4MDlaFw0yMDA5MjQxOTA4MDlaMG8xCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UEBwwMU2FuRnJhbmNpc2NvMQ8wDQYDVQQKDAZHb29nbGUx
+EDAOBgNVBAsMB3lvdXR1YmUxGTAXBgNVBAMMEHd3dy5teXNlcnZlci5jb20wggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDUR4x8u/w6wmIs9BHsWbAWcZyW
+nacQdxZh+ko1z7d26ybkfwUrw3KSeuwntEsOWNKrkt0ZvNs4OTDFshbEgkr6mkmp
+PTgd9PAZ0os4Hu7EMBy2E9el8XEt9FC/aqgbg9Mvj68s2Xc7I2BcgmIt6BQ48FRH
+54gVGf6vH6WFiSVStI4Nwcrhnf/EtPVcQwRHGYQu7jPnYBScDrz3w4Gnzxrexo35
+PqEcqZAVcQMEHASjqU6sDNhdLPzVoyRMpkofe6ykuE5E1qqbWGo7B+Rf7BfrFQ1R
+Tu8PYeOfN9GE46tnAAscsdAX/5AOL+kgx3ZCcMefJpizJOWxa8cG2dfOhiBTsfzu
+ipIqdR+kfLXJ4UcstegDsmr86vuP6KCCICidsjNK3WBX67w5huIDcnBx1LsReUhm
+9oFk+u2GC5uwnE9ksyubUJaJ+kKSh5Jnl7GFhtXX0C/ziM+CE1hEy1tXKMk+n0QK
+OJXAV/nxXCqVrm6oYJN4uSAKSzUJF8hzEyK4zm5h7sLjiYPvy7DMYpYNlPC4wHM7
+iYVDxKcE/VBOX1VjjNqmwlQYyb0D2jmXlJ9Es0DpUwMFmvZjVsatdarAcKl/I0gq
+6kKYofx8NMV9wP9rVhLnbLc8AKmC8TQl18SwYRbamJqbzyNFaHd/zDqWRRQP4cOi
+oWmJ57qQ2vUXEvWtRQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDT45/aFYUvd28v
+vHnw23bObJdF0X7l28ecB6W9WAt2gKBWQr0S2uhW0qfmUsVZ96h4x8KyPF0YCDD4
+tz2SL+Z84WiUZbg1uiY2FZsAjJTb+2lsWbJWSudSMCvyElDnMw6Wv5W1nIFBdE5f
++GaVWrv7dNW8uAUaBt3CtmYZ08EAtB/rtAMLUe+ufi0dh0BVST5UM8XZK/66kcV/
+9QSwclrV4FH+Hu8bJxwf4cOqBSThe0AZtiH8quCTyDgf0CdNNywWSVwyDFBng7/4
+PZNAHNoWFe6Pa/nVmR0TvSgxIZwTWGTEnH5qT9yv/D5nY3eHhgDD77lDjA5Dg2ib
+OEleXojDY0/0bQiqiRmJUbaPmNfbinmGLzWniAXeLHX4GfZkiRQx/STJ9bbdH3lu
+QsBrYRNsmwby4+Lrlk6OkauVq32qwznYQtnMkS51+LdUf+QOrQJr9maTm0AbQtsS
+y4mBMU44utP+yKq4GKO5UYbrWC/V+MmyHDdNMKv8nHndwcnoEEHJ+J0RAvN/fJdw
+YV5Vbf/0S1qmybYNizgdKT3tKpvzDHLyPTV2ujlGVv1I9D0tVu5Eh2jE4vL9mQaO
++1yL1PeHgVBfi2Km4nRr/Xdp20G3l2eyrR7nOBZ2SHKHVre+OXxY4emkEWkMmLAO
+lBEws9a1sDU+m49mH4/NX7qanxiTCw==
+-----END CERTIFICATE-----
+[2020-06-13 12:15:36][DEBUG]Init server, load config file final result serverkey = -----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+[2020-06-13 12:15:36][DEBUG]Init server, load config file final result server_private_key = ----
+[2020-06-13 12:15:36][DEBUG]Init server, load config file final result single_login_server_database_name = single_login
+[2020-06-13 12:15:36][DEBUG]Init server, load config file final result single_login_server_database_ip = localhost
+[2020-06-13 12:15:36][DEBUG]Init server, load config file final result single_login_server_database_username = root
+[2020-06-13 12:15:36][DEBUG]Init server, load config file final result single_login_server_database_password = 12345678
+[2020-06-13 12:15:36][DEBUG]Init server, load config file final result single_login_server_ip_and_port = 0.0.0.0:50051
+[2020-06-13 12:15:36][DEBUG]UUID = 7f84a271-411f-4754-b86f-e2c870f04033
+[2020-06-13 12:15:36][DEBUG]Server init success
+[2020-06-13 12:15:36][DEBUG]Server listening on 0.0.0.0:50051
+Check SQL parameter str = ADFASDF
+Check SQL parameter str = ADFASDF, check passed!
+Check SQL parameter str = ASDFASDF
+Check SQL parameter str = ASDFASDF, check passed!
+[2020-06-13 12:15:55][DEBUG]Login user name =  ADFASDF
+[2020-06-13 12:15:55][DEBUG]Login user password =  ASDFASDF
+Check user name exist in db, query string = select * from t_user where user_name='%s'
+Do MySQL query function enter, param dbName = single_login
+Do MySQL query function enter, param dbIP = localhost
+Do MySQL query function enter, param dbUserName = root
+Do MySQL query function enter, param dbUserPwd = 12345678
+Do MySQL query function enter, param queryStr = select * from t_user where user_name='%s'
+Do MySQL query function enter, param queryParam1 = ADFASDF
+Do MySQL query function enter, param queryParam2 = 
+Do MySQL query function enter, param queryParam3 = 
+Do MySQL query, query param1 escaped = ADFASDF
+Do MySQL query, query string with escaped param = select * from t_user where user_name='ADFASDF'
+Do MySQL query, query result row count = 0
+Do MySQL query, query result error msg = 
+Do MySQL query, query succeed!
+Check user name exist in db, query is succeed = 1
+Check user name exist in db, query result row count = 0
+Check user name exist in db, query error msg = 
+Check SQL parameter str = ADFASDF
+Check SQL parameter str = ADFASDF, check passed!
+Check SQL parameter str = ASDFASDF
+Check SQL parameter str = ASDFASDF, check passed!
+[2020-06-13 12:16:00][DEBUG]Login user name =  ADFASDF
+[2020-06-13 12:16:00][DEBUG]Login user password =  ASDFASDF
+Check user name exist in db, query string = select * from t_user where user_name='%s'
+Do MySQL query function enter, param dbName = single_login
+Do MySQL query function enter, param dbIP = localhost
+Do MySQL query function enter, param dbUserName = root
+Do MySQL query function enter, param dbUserPwd = 12345678
+Do MySQL query function enter, param queryStr = select * from t_user where user_name='%s'
+Do MySQL query function enter, param queryParam1 = ADFASDF
+Do MySQL query function enter, param queryParam2 = 
+Do MySQL query function enter, param queryParam3 = 
+Do MySQL query, query param1 escaped = ADFASDF
+Do MySQL query, query string with escaped param = select * from t_user where user_name='ADFASDF'
+Do MySQL query, query result row count = 0
+Do MySQL query, query result error msg = 
+Do MySQL query, query succeed!
+Check user name exist in db, query is succeed = 1
+Check user name exist in db, query result row count = 0
+Check user name exist in db, query error msg = 
+Check SQL parameter str = 123456789
+Check SQL parameter str = 123456789, check passed!
+Check SQL parameter str = 123456789
+Check SQL parameter str = 123456789, check passed!
+[2020-06-13 12:16:18][DEBUG]Login user name =  123456789
+[2020-06-13 12:16:18][DEBUG]Login user password =  123456789
+Check user name exist in db, query string = select * from t_user where user_name='%s'
+Do MySQL query function enter, param dbName = single_login
+Do MySQL query function enter, param dbIP = localhost
+Do MySQL query function enter, param dbUserName = root
+Do MySQL query function enter, param dbUserPwd = 12345678
+Do MySQL query function enter, param queryStr = select * from t_user where user_name='%s'
+Do MySQL query function enter, param queryParam1 = 123456789
+Do MySQL query function enter, param queryParam2 = 
+Do MySQL query function enter, param queryParam3 = 
+Do MySQL query, query param1 escaped = 123456789
+Do MySQL query, query string with escaped param = select * from t_user where user_name='123456789'
+Do MySQL query, query result row count = 0
+Do MySQL query, query result error msg = 
+Do MySQL query, query succeed!
+Check user name exist in db, query is succeed = 1
+Check user name exist in db, query result row count = 0
+Check user name exist in db, query error msg = 
+Check SQL parameter str = 1234567
+Check SQL parameter str = 1234567, check passed!
+Check SQL parameter str = 1234567
+Check SQL parameter str = 1234567, check passed!
+[2020-06-13 12:17:02][DEBUG]Login user name =  1234567
+[2020-06-13 12:17:02][DEBUG]Login user password =  1234567
+Check user name exist in db, query string = select * from t_user where user_name='%s'
+Do MySQL query function enter, param dbName = single_login
+Do MySQL query function enter, param dbIP = localhost
+Do MySQL query function enter, param dbUserName = root
+Do MySQL query function enter, param dbUserPwd = 12345678
+Do MySQL query function enter, param queryStr = select * from t_user where user_name='%s'
+Do MySQL query function enter, param queryParam1 = 1234567
+Do MySQL query function enter, param queryParam2 = 
+Do MySQL query function enter, param queryParam3 = 
+Do MySQL query, query param1 escaped = 1234567
+Do MySQL query, query string with escaped param = select * from t_user where user_name='1234567'
+Do MySQL query, query result row count = 0
+Do MySQL query, query result error msg = 
+Do MySQL query, query succeed!
+Check user name exist in db, query is succeed = 1
+Check user name exist in db, query result row count = 0
+Check user name exist in db, query error msg = 
+[2020-06-13 12:19:05][DEBUG]Init server, load config file final result servercert = -----BEGIN CERTIFICATE-----
+MIIFUjCCAzoCAQEwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgMAkNBMRUwEwYDVQQHDAxTYW5GcmFuY2lzY28xDzANBgNVBAoMBkdvb2dsZTEQ
+MA4GA1UECwwHeW91dHViZTEZMBcGA1UEAwwQd3d3Lm15c2VydmVyLmNvbTAeFw0x
+OTA5MjUxOTA4MDlaFw0yMDA5MjQxOTA4MDlaMG8xCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UEBwwMU2FuRnJhbmNpc2NvMQ8wDQYDVQQKDAZHb29nbGUx
+EDAOBgNVBAsMB3lvdXR1YmUxGTAXBgNVBAMMEHd3dy5teXNlcnZlci5jb20wggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDUR4x8u/w6wmIs9BHsWbAWcZyW
+nacQdxZh+ko1z7d26ybkfwUrw3KSeuwntEsOWNKrkt0ZvNs4OTDFshbEgkr6mkmp
+PTgd9PAZ0os4Hu7EMBy2E9el8XEt9FC/aqgbg9Mvj68s2Xc7I2BcgmIt6BQ48FRH
+54gVGf6vH6WFiSVStI4Nwcrhnf/EtPVcQwRHGYQu7jPnYBScDrz3w4Gnzxrexo35
+PqEcqZAVcQMEHASjqU6sDNhdLPzVoyRMpkofe6ykuE5E1qqbWGo7B+Rf7BfrFQ1R
+Tu8PYeOfN9GE46tnAAscsdAX/5AOL+kgx3ZCcMefJpizJOWxa8cG2dfOhiBTsfzu
+ipIqdR+kfLXJ4UcstegDsmr86vuP6KCCICidsjNK3WBX67w5huIDcnBx1LsReUhm
+9oFk+u2GC5uwnE9ksyubUJaJ+kKSh5Jnl7GFhtXX0C/ziM+CE1hEy1tXKMk+n0QK
+OJXAV/nxXCqVrm6oYJN4uSAKSzUJF8hzEyK4zm5h7sLjiYPvy7DMYpYNlPC4wHM7
+iYVDxKcE/VBOX1VjjNqmwlQYyb0D2jmXlJ9Es0DpUwMFmvZjVsatdarAcKl/I0gq
+6kKYofx8NMV9wP9rVhLnbLc8AKmC8TQl18SwYRbamJqbzyNFaHd/zDqWRRQP4cOi
+oWmJ57qQ2vUXEvWtRQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDT45/aFYUvd28v
+vHnw23bObJdF0X7l28ecB6W9WAt2gKBWQr0S2uhW0qfmUsVZ96h4x8KyPF0YCDD4
+tz2SL+Z84WiUZbg1uiY2FZsAjJTb+2lsWbJWSudSMCvyElDnMw6Wv5W1nIFBdE5f
++GaVWrv7dNW8uAUaBt3CtmYZ08EAtB/rtAMLUe+ufi0dh0BVST5UM8XZK/66kcV/
+9QSwclrV4FH+Hu8bJxwf4cOqBSThe0AZtiH8quCTyDgf0CdNNywWSVwyDFBng7/4
+PZNAHNoWFe6Pa/nVmR0TvSgxIZwTWGTEnH5qT9yv/D5nY3eHhgDD77lDjA5Dg2ib
+OEleXojDY0/0bQiqiRmJUbaPmNfbinmGLzWniAXeLHX4GfZkiRQx/STJ9bbdH3lu
+QsBrYRNsmwby4+Lrlk6OkauVq32qwznYQtnMkS51+LdUf+QOrQJr9maTm0AbQtsS
+y4mBMU44utP+yKq4GKO5UYbrWC/V+MmyHDdNMKv8nHndwcnoEEHJ+J0RAvN/fJdw
+YV5Vbf/0S1qmybYNizgdKT3tKpvzDHLyPTV2ujlGVv1I9D0tVu5Eh2jE4vL9mQaO
++1yL1PeHgVBfi2Km4nRr/Xdp20G3l2eyrR7nOBZ2SHKHVre+OXxY4emkEWkMmLAO
+lBEws9a1sDU+m49mH4/NX7qanxiTCw==
+-----END CERTIFICATE-----
+[2020-06-13 12:19:05][DEBUG]Init server, load config file final result serverkey = -----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+[2020-06-13 12:19:05][DEBUG]Init server, load config file final result server_private_key = ----
+[2020-06-13 12:19:05][DEBUG]Init server, load config file final result single_login_server_database_name = single_login
+[2020-06-13 12:19:05][DEBUG]Init server, load config file final result single_login_server_database_ip = localhost
+[2020-06-13 12:19:05][DEBUG]Init server, load config file final result single_login_server_database_username = root
+[2020-06-13 12:19:05][DEBUG]Init server, load config file final result single_login_server_database_password = 12345678
+[2020-06-13 12:19:05][DEBUG]Init server, load config file final result single_login_server_ip_and_port = 0.0.0.0:50051
+[2020-06-13 12:19:05][DEBUG]UUID = 7101f64d-d912-4003-8d0d-f2c3a67ab9c2
+[2020-06-13 12:19:05][DEBUG]Server init success
+[2020-06-13 12:19:05][DEBUG]Server listening on 0.0.0.0:50051
+Check SQL parameter str = faip5555
+Check SQL parameter str = faip5555, check passed!
+[2020-06-13 12:19:07][DEBUG]Register user name =  faip5555
+[2020-06-13 12:19:07][DEBUG]Register user password =  A6ZEPm0pKGQ/JbkiRRE8nNKLUPlCE4d0K6Yt5Nyj5mmSzLWCXro6VcyYkZCfyUVO/N8Mw1yntMam6S8PSgJfzSKXTtSyaPEdBX0cptlQmym0f6ALIGk3/Aqo3A/qjwJGnFCdjMzo/OaGX6AO0kxr2SDrToguxP4Dmuhlt1GtjjgboByxBB5K3ThugnzeeIw0QDmuWZ6D8azOpkvFpKq0U4nCcb+wtGSx2DlFzrekNlS6mhMT51ZYrDnuSBFgVRapjLweaMyTpxJK1Gf+uU3iJUOvpK+iJoYdkLKh0cOzmfXG0Ex5RIb9mshAN/Oma2VxcVU4CmXhlC8VYMZLg3X8ww==
+[2020-06-13 12:19:07][DEBUG]Register user password decyrpted =  faip5555
+Check SQL parameter str = faip5555
+Check SQL parameter str = faip5555, check passed!
+Save user info to db, user name = faip5555
+Check user name exist in db, query string = select * from t_user where user_name='%s'
+Do MySQL query function enter, param dbName = single_login
+Do MySQL query function enter, param dbIP = localhost
+Do MySQL query function enter, param dbUserName = root
+Do MySQL query function enter, param dbUserPwd = 12345678
+Do MySQL query function enter, param queryStr = select * from t_user where user_name='%s'
+Do MySQL query function enter, param queryParam1 = faip5555
+Do MySQL query function enter, param queryParam2 = 
+Do MySQL query function enter, param queryParam3 = 
+Do MySQL query, query param1 escaped = faip5555
+Do MySQL query, query string with escaped param = select * from t_user where user_name='faip5555'
+Do MySQL query, query result row count = 0
+Do MySQL query, query result error msg = 
+Do MySQL query, query succeed!
+Check user name exist in db, query is succeed = 1
+Check user name exist in db, query result row count = 0
+Check user name exist in db, query error msg = 
+Save user info to db, user not in db!
+Save use hash salt to db, user name = faip5555
+Save use hash salt to db, generated random salt = ba16d6f3-d8db-42ed-bb96-1e8d79f731bf
+Save user has salt to db, insert string = insert into t_user_random_hash values('%s', '%s')
+Do MySQL query function enter, param dbName = single_login
+Do MySQL query function enter, param dbIP = localhost
+Do MySQL query function enter, param dbUserName = root
+Do MySQL query function enter, param dbUserPwd = 12345678
+Do MySQL query function enter, param queryStr = insert into t_user_random_hash values('%s', '%s')
+Do MySQL query function enter, param queryParam1 = faip5555
+Do MySQL query function enter, param queryParam2 = ba16d6f3-d8db-42ed-bb96-1e8d79f731bf
+Do MySQL query function enter, param queryParam3 = 
+Do MySQL query, query param1 escaped = faip5555
+Do MySQL query, query param2 escaped = ba16d6f3-d8db-42ed-bb96-1e8d79f731bf
+Do MySQL query, query string with escaped param = insert into t_user_random_hash values('faip5555', 'ba16d6f3-d8db-42ed-bb96-1e8d79f731bf')
+Do MySQL query, query result row count = 0
+Do MySQL query, query result error msg = 
+Do MySQL query, query succeed!
+Save user hash salt to db, insert result is = 1
+Save user hash salt to db, insert result row count = 0
+Save user hash salt to db, insert error msg = 
+Save user hash salt to db, insert succeed!
+Save user info to db, hash salt got = ba16d6f3-d8db-42ed-bb96-1e8d79f731bf
+Save user info to db, user password bcrypt = $2a$12$L9112KGxZo32qqp3xodnz.l6fCIwYI7dmQtn1POq485B.lXiyLugK
+Save user info to db, insert string = insert into t_user values('%s', '%s')
+Do MySQL query function enter, param dbName = single_login
+Do MySQL query function enter, param dbIP = localhost
+Do MySQL query function enter, param dbUserName = root
+Do MySQL query function enter, param dbUserPwd = 12345678
+Do MySQL query function enter, param queryStr = insert into t_user values('%s', '%s')
+Do MySQL query function enter, param queryParam1 = faip5555
+Do MySQL query function enter, param queryParam2 = $2a$12$L9112KGxZo32qqp3xodnz.l6fCIwYI7dmQtn1POq485B.lXiyLugK
+Do MySQL query function enter, param queryParam3 = 
+Do MySQL query, query param1 escaped = faip5555
+Do MySQL query, query param2 escaped = $2a$12$L9112KGxZo32qqp3xodnz.l6fCIwYI7dmQtn1POq485B.lXiyLugK
+Do MySQL query, query string with escaped param = insert into t_user values('faip5555', '$2a$12$L9112KGxZo32qqp3xodnz.l6fCIwYI7dmQtn1POq485B.lXiyLugK')
+Do MySQL query, query result row count = 0
+Do MySQL query, query result error msg = 
+Do MySQL query, query succeed!
+Save user info to db, insert result is succeed = 1
+Save user info to db, insert result row count = 0
+Save user info to db, insert error msg = 
+Save user info to db, insert ok!
+[2020-06-13 12:40:48][DEBUG]Load config file, file path = /single_login_src/SingleLoginServer/etc/SingleLoginServerConfig.json
+[2020-06-13 12:40:48][DEBUG]Load file to string, file path = /single_login_src/SingleLoginServer/etc/SingleLoginServerConfig.json
+[2020-06-13 12:40:48][DEBUG]Load file to string, file content = {
+    "ServerCertPath": "/single_login_src/SingleLoginServer/etc/serverCert.cert",
+    "ServerCertPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverPrikey.key",
+    "ServerDecryptPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key",
+    "ServerDatabaseName": "single_login",
+    "ServerDatabaseIP": "localhost",
+    "ServerDatabaseUserName": "root",
+    "ServerDatabaseUserPassword": "12345678",
+    "ServerIPAndPort": "0.0.0.0:50051"
+ }
+[2020-06-13 12:40:48][DEBUG]Load config file, config file content = {
+    "ServerCertPath": "/single_login_src/SingleLoginServer/etc/serverCert.cert",
+    "ServerCertPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverPrikey.key",
+    "ServerDecryptPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key",
+    "ServerDatabaseName": "single_login",
+    "ServerDatabaseIP": "localhost",
+    "ServerDatabaseUserName": "root",
+    "ServerDatabaseUserPassword": "12345678",
+    "ServerIPAndPort": "0.0.0.0:50051"
+ }
+[2020-06-13 12:40:48][DEBUG]Load config file, config file parse ok!
+[2020-06-13 12:40:48][DEBUG]Load config file, serverCertPath = /single_login_src/SingleLoginServer/etc/serverCert.cert
+[2020-06-13 12:40:48][DEBUG]Load file to string, file path = /single_login_src/SingleLoginServer/etc/serverCert.cert
+[2020-06-13 12:40:48][DEBUG]Load file to string, file content = -----BEGIN CERTIFICATE-----
+MIIFUjCCAzoCAQEwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgMAkNBMRUwEwYDVQQHDAxTYW5GcmFuY2lzY28xDzANBgNVBAoMBkdvb2dsZTEQ
+MA4GA1UECwwHeW91dHViZTEZMBcGA1UEAwwQd3d3Lm15c2VydmVyLmNvbTAeFw0x
+OTA5MjUxOTA4MDlaFw0yMDA5MjQxOTA4MDlaMG8xCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UEBwwMU2FuRnJhbmNpc2NvMQ8wDQYDVQQKDAZHb29nbGUx
+EDAOBgNVBAsMB3lvdXR1YmUxGTAXBgNVBAMMEHd3dy5teXNlcnZlci5jb20wggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDUR4x8u/w6wmIs9BHsWbAWcZyW
+nacQdxZh+ko1z7d26ybkfwUrw3KSeuwntEsOWNKrkt0ZvNs4OTDFshbEgkr6mkmp
+PTgd9PAZ0os4Hu7EMBy2E9el8XEt9FC/aqgbg9Mvj68s2Xc7I2BcgmIt6BQ48FRH
+54gVGf6vH6WFiSVStI4Nwcrhnf/EtPVcQwRHGYQu7jPnYBScDrz3w4Gnzxrexo35
+PqEcqZAVcQMEHASjqU6sDNhdLPzVoyRMpkofe6ykuE5E1qqbWGo7B+Rf7BfrFQ1R
+Tu8PYeOfN9GE46tnAAscsdAX/5AOL+kgx3ZCcMefJpizJOWxa8cG2dfOhiBTsfzu
+ipIqdR+kfLXJ4UcstegDsmr86vuP6KCCICidsjNK3WBX67w5huIDcnBx1LsReUhm
+9oFk+u2GC5uwnE9ksyubUJaJ+kKSh5Jnl7GFhtXX0C/ziM+CE1hEy1tXKMk+n0QK
+OJXAV/nxXCqVrm6oYJN4uSAKSzUJF8hzEyK4zm5h7sLjiYPvy7DMYpYNlPC4wHM7
+iYVDxKcE/VBOX1VjjNqmwlQYyb0D2jmXlJ9Es0DpUwMFmvZjVsatdarAcKl/I0gq
+6kKYofx8NMV9wP9rVhLnbLc8AKmC8TQl18SwYRbamJqbzyNFaHd/zDqWRRQP4cOi
+oWmJ57qQ2vUXEvWtRQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDT45/aFYUvd28v
+vHnw23bObJdF0X7l28ecB6W9WAt2gKBWQr0S2uhW0qfmUsVZ96h4x8KyPF0YCDD4
+tz2SL+Z84WiUZbg1uiY2FZsAjJTb+2lsWbJWSudSMCvyElDnMw6Wv5W1nIFBdE5f
++GaVWrv7dNW8uAUaBt3CtmYZ08EAtB/rtAMLUe+ufi0dh0BVST5UM8XZK/66kcV/
+9QSwclrV4FH+Hu8bJxwf4cOqBSThe0AZtiH8quCTyDgf0CdNNywWSVwyDFBng7/4
+PZNAHNoWFe6Pa/nVmR0TvSgxIZwTWGTEnH5qT9yv/D5nY3eHhgDD77lDjA5Dg2ib
+OEleXojDY0/0bQiqiRmJUbaPmNfbinmGLzWniAXeLHX4GfZkiRQx/STJ9bbdH3lu
+QsBrYRNsmwby4+Lrlk6OkauVq32qwznYQtnMkS51+LdUf+QOrQJr9maTm0AbQtsS
+y4mBMU44utP+yKq4GKO5UYbrWC/V+MmyHDdNMKv8nHndwcnoEEHJ+J0RAvN/fJdw
+YV5Vbf/0S1qmybYNizgdKT3tKpvzDHLyPTV2ujlGVv1I9D0tVu5Eh2jE4vL9mQaO
++1yL1PeHgVBfi2Km4nRr/Xdp20G3l2eyrR7nOBZ2SHKHVre+OXxY4emkEWkMmLAO
+lBEws9a1sDU+m49mH4/NX7qanxiTCw==
+-----END CERTIFICATE-----
+[2020-06-13 12:40:48][DEBUG]Load config file, serverCert  = -----BEGIN CERTIFICATE-----
+MIIFUjCCAzoCAQEwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgMAkNBMRUwEwYDVQQHDAxTYW5GcmFuY2lzY28xDzANBgNVBAoMBkdvb2dsZTEQ
+MA4GA1UECwwHeW91dHViZTEZMBcGA1UEAwwQd3d3Lm15c2VydmVyLmNvbTAeFw0x
+OTA5MjUxOTA4MDlaFw0yMDA5MjQxOTA4MDlaMG8xCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UEBwwMU2FuRnJhbmNpc2NvMQ8wDQYDVQQKDAZHb29nbGUx
+EDAOBgNVBAsMB3lvdXR1YmUxGTAXBgNVBAMMEHd3dy5teXNlcnZlci5jb20wggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDUR4x8u/w6wmIs9BHsWbAWcZyW
+nacQdxZh+ko1z7d26ybkfwUrw3KSeuwntEsOWNKrkt0ZvNs4OTDFshbEgkr6mkmp
+PTgd9PAZ0os4Hu7EMBy2E9el8XEt9FC/aqgbg9Mvj68s2Xc7I2BcgmIt6BQ48FRH
+54gVGf6vH6WFiSVStI4Nwcrhnf/EtPVcQwRHGYQu7jPnYBScDrz3w4Gnzxrexo35
+PqEcqZAVcQMEHASjqU6sDNhdLPzVoyRMpkofe6ykuE5E1qqbWGo7B+Rf7BfrFQ1R
+Tu8PYeOfN9GE46tnAAscsdAX/5AOL+kgx3ZCcMefJpizJOWxa8cG2dfOhiBTsfzu
+ipIqdR+kfLXJ4UcstegDsmr86vuP6KCCICidsjNK3WBX67w5huIDcnBx1LsReUhm
+9oFk+u2GC5uwnE9ksyubUJaJ+kKSh5Jnl7GFhtXX0C/ziM+CE1hEy1tXKMk+n0QK
+OJXAV/nxXCqVrm6oYJN4uSAKSzUJF8hzEyK4zm5h7sLjiYPvy7DMYpYNlPC4wHM7
+iYVDxKcE/VBOX1VjjNqmwlQYyb0D2jmXlJ9Es0DpUwMFmvZjVsatdarAcKl/I0gq
+6kKYofx8NMV9wP9rVhLnbLc8AKmC8TQl18SwYRbamJqbzyNFaHd/zDqWRRQP4cOi
+oWmJ57qQ2vUXEvWtRQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDT45/aFYUvd28v
+vHnw23bObJdF0X7l28ecB6W9WAt2gKBWQr0S2uhW0qfmUsVZ96h4x8KyPF0YCDD4
+tz2SL+Z84WiUZbg1uiY2FZsAjJTb+2lsWbJWSudSMCvyElDnMw6Wv5W1nIFBdE5f
++GaVWrv7dNW8uAUaBt3CtmYZ08EAtB/rtAMLUe+ufi0dh0BVST5UM8XZK/66kcV/
+9QSwclrV4FH+Hu8bJxwf4cOqBSThe0AZtiH8quCTyDgf0CdNNywWSVwyDFBng7/4
+PZNAHNoWFe6Pa/nVmR0TvSgxIZwTWGTEnH5qT9yv/D5nY3eHhgDD77lDjA5Dg2ib
+OEleXojDY0/0bQiqiRmJUbaPmNfbinmGLzWniAXeLHX4GfZkiRQx/STJ9bbdH3lu
+QsBrYRNsmwby4+Lrlk6OkauVq32qwznYQtnMkS51+LdUf+QOrQJr9maTm0AbQtsS
+y4mBMU44utP+yKq4GKO5UYbrWC/V+MmyHDdNMKv8nHndwcnoEEHJ+J0RAvN/fJdw
+YV5Vbf/0S1qmybYNizgdKT3tKpvzDHLyPTV2ujlGVv1I9D0tVu5Eh2jE4vL9mQaO
++1yL1PeHgVBfi2Km4nRr/Xdp20G3l2eyrR7nOBZ2SHKHVre+OXxY4emkEWkMmLAO
+lBEws9a1sDU+m49mH4/NX7qanxiTCw==
+-----END CERTIFICATE-----
+[2020-06-13 12:40:48][DEBUG]Load config file, serverCertPrivateKeyPath = /single_login_src/SingleLoginServer/etc/serverPrikey.key
+[2020-06-13 12:40:48][DEBUG]Load file to string, file path = /single_login_src/SingleLoginServer/etc/serverPrikey.key
+[2020-06-13 12:40:48][DEBUG]Load file to string, file content = -----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+[2020-06-13 12:40:48][DEBUG]Load config file, serverDecryptPrivateKeyPath = /single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key
+[2020-06-13 12:40:48][DEBUG]Load file to string, file path = /single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key
+[2020-06-13 12:40:48][DEBUG]Load file to string, file content = -----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAuC24gUsxt7HggDw1UPTEqekujh1Snd2h63j/+48ao6W4DYn1
+sAKFrjJWkeOiNsKJZmpFtPGnqxxXooyRSl1diMLVLkZqBLLd7xdqpr8J2e4IqzsU
+VdxZuNvROKYPpVM0AQwFf8Xd2qneWTkhM+PDdH4JM2Z+0G1LkyHO3g1ACJnUZqPg
+UrzuOxBVHMsQvmx94vdFmUldebwPAG1aPW42eJ29kxvvYDxRhFTEC7P6Rq5Rf+6J
+dgrj8WnP/iculGVb109PyuvfiI6KRjMh8DbD2l0YRIU5ua9uG4wp7BKLzpEaxsx9
+5MKDK1iUHL8sj9lh0ArtFDHoigVWb1FA4BQPcQIDAQABAoIBAASb4Eob/5qBMQUE
+fLER7vnxg+C6ix64NR0XYhCBfEEsHHb6RNOqvH2ndNMhxyVnqNiPQD9O7MszYl4G
+9nvN6lFJztvhlzWW5EbfZyPVFAIIGt9uEwwy/2vI1Gt+fFW+x0ZfbqPL58lZBt9k
+tpf90x5PKRvILNQ6Z/G+ntafrkKIzBHKHN7QzPN9vuXrj5JuBT56YG2rQeA4RVW3
+xY59abeyuXPsMw0W8bTCPgyHjdNUX7I+e+8ypX86w+y630aQs5gsSZtbfiKIHPGu
+Y7NM4Cy3e5t0rJtIQ2Kb+THZ+6mNFacieRp95sQRtlfVisaZSMVlb2hbU13SpDj4
+k8G4VyECgYEA2WwOa7wMaKMLIJC0WiPJzcgwiR4CmmBqhxdos0pqDDH8imoEXK1i
+a+6FRuYoKSirATqTlx+EPYrW/x9SQkmyDr6WaKqCW21FdEmIRQ0+1bt4VRfMFchK
+GH4x/tWCePyacdKJoNr0afZysUDpp74gJ9uJcSWFHLHHp5syJCZ1UKsCgYEA2Nul
+5hUuD4nc3w7Tq62+NkVLRxbMc+IJe7yDhEE51I+dRhp5I1sgBDoIfpZPgf5zO0Hk
+mMmio5w66K0RfO0LoKDbl0KU/YvzAHpGHs7l56DR+uk+wAwb3UiJBzaI+AtKc9jE
+sw207TETtuj21BhFMCu7bUqod/9Dm4hyCuIwuFMCgYASqGs0Y5bNA/DYgpJ3icqv
+lhZULfcbOFrr7N5XRHOFSGTbm+1z5o0jpfxZ8TZREeRa3qP7vAClJ1z717w/ZAOb
+sE9H/BnjrqTfLdA73L8fqE7TPo+M7vsszueLbtcbetHmIqMc4q1GypddDqz+cBpi
+UTyiMQ4TQE5Z27+ZypMWsQKBgGdWlAHGSgLBkW0B5cBDtQarkqm3pYn7RsWeGZXm
+dyZhoXKMnvlILUOWXAHmotCxbjvotIRSYZxRkIjcIB9F3mqW/M1hvxnrnMq3eb6o
+nUn5itZkW7CslIKoVBQJ2s9Iohv+Sg2BFJyK7HgXH7gGMMI5tMDp+Mnl7FOre5zQ
+GKNdAoGARYRV1uhwFepW604xOmpZc+1WRmZjjNcO9CAHE+Tb4qKaWU/CP/6qzW1Q
+wCvUojwnQxK/yP02D1oupKtpGRpPsfy+rfSQp4Wu/HhYlz7j5QLQP6isHOuZUt1z
+9AVz1RN3Wv+rEhOFvkOsO/OEmFRZSxEL1kxH01B3GWennSRsjZc=
+-----END RSA PRIVATE KEY-----
+[2020-06-13 12:40:48][DEBUG]Load config file, ServerDatabaseName = single_login
+[2020-06-13 12:40:48][DEBUG]Load config file, ServerDatabaseIP = localhost
+[2020-06-13 12:40:48][DEBUG]Load config file, ServerDatabaseUserName = root
+[2020-06-13 12:40:48][DEBUG]Load config file, ServerDatabaseUserPassword = 12345678
+[2020-06-13 12:40:48][DEBUG]Load config file, ServerIPAndPort = 0.0.0.0:50051
+[2020-06-13 12:40:48][DEBUG]Init server, load config file final result servercert = -----BEGIN CERTIFICATE-----
+MIIFUjCCAzoCAQEwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgMAkNBMRUwEwYDVQQHDAxTYW5GcmFuY2lzY28xDzANBgNVBAoMBkdvb2dsZTEQ
+MA4GA1UECwwHeW91dHViZTEZMBcGA1UEAwwQd3d3Lm15c2VydmVyLmNvbTAeFw0x
+OTA5MjUxOTA4MDlaFw0yMDA5MjQxOTA4MDlaMG8xCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UEBwwMU2FuRnJhbmNpc2NvMQ8wDQYDVQQKDAZHb29nbGUx
+EDAOBgNVBAsMB3lvdXR1YmUxGTAXBgNVBAMMEHd3dy5teXNlcnZlci5jb20wggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDUR4x8u/w6wmIs9BHsWbAWcZyW
+nacQdxZh+ko1z7d26ybkfwUrw3KSeuwntEsOWNKrkt0ZvNs4OTDFshbEgkr6mkmp
+PTgd9PAZ0os4Hu7EMBy2E9el8XEt9FC/aqgbg9Mvj68s2Xc7I2BcgmIt6BQ48FRH
+54gVGf6vH6WFiSVStI4Nwcrhnf/EtPVcQwRHGYQu7jPnYBScDrz3w4Gnzxrexo35
+PqEcqZAVcQMEHASjqU6sDNhdLPzVoyRMpkofe6ykuE5E1qqbWGo7B+Rf7BfrFQ1R
+Tu8PYeOfN9GE46tnAAscsdAX/5AOL+kgx3ZCcMefJpizJOWxa8cG2dfOhiBTsfzu
+ipIqdR+kfLXJ4UcstegDsmr86vuP6KCCICidsjNK3WBX67w5huIDcnBx1LsReUhm
+9oFk+u2GC5uwnE9ksyubUJaJ+kKSh5Jnl7GFhtXX0C/ziM+CE1hEy1tXKMk+n0QK
+OJXAV/nxXCqVrm6oYJN4uSAKSzUJF8hzEyK4zm5h7sLjiYPvy7DMYpYNlPC4wHM7
+iYVDxKcE/VBOX1VjjNqmwlQYyb0D2jmXlJ9Es0DpUwMFmvZjVsatdarAcKl/I0gq
+6kKYofx8NMV9wP9rVhLnbLc8AKmC8TQl18SwYRbamJqbzyNFaHd/zDqWRRQP4cOi
+oWmJ57qQ2vUXEvWtRQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDT45/aFYUvd28v
+vHnw23bObJdF0X7l28ecB6W9WAt2gKBWQr0S2uhW0qfmUsVZ96h4x8KyPF0YCDD4
+tz2SL+Z84WiUZbg1uiY2FZsAjJTb+2lsWbJWSudSMCvyElDnMw6Wv5W1nIFBdE5f
++GaVWrv7dNW8uAUaBt3CtmYZ08EAtB/rtAMLUe+ufi0dh0BVST5UM8XZK/66kcV/
+9QSwclrV4FH+Hu8bJxwf4cOqBSThe0AZtiH8quCTyDgf0CdNNywWSVwyDFBng7/4
+PZNAHNoWFe6Pa/nVmR0TvSgxIZwTWGTEnH5qT9yv/D5nY3eHhgDD77lDjA5Dg2ib
+OEleXojDY0/0bQiqiRmJUbaPmNfbinmGLzWniAXeLHX4GfZkiRQx/STJ9bbdH3lu
+QsBrYRNsmwby4+Lrlk6OkauVq32qwznYQtnMkS51+LdUf+QOrQJr9maTm0AbQtsS
+y4mBMU44utP+yKq4GKO5UYbrWC/V+MmyHDdNMKv8nHndwcnoEEHJ+J0RAvN/fJdw
+YV5Vbf/0S1qmybYNizgdKT3tKpvzDHLyPTV2ujlGVv1I9D0tVu5Eh2jE4vL9mQaO
++1yL1PeHgVBfi2Km4nRr/Xdp20G3l2eyrR7nOBZ2SHKHVre+OXxY4emkEWkMmLAO
+lBEws9a1sDU+m49mH4/NX7qanxiTCw==
+-----END CERTIFICATE-----
+[2020-06-13 12:40:48][DEBUG]Init server, load config file final result serverkey = -----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+[2020-06-13 12:40:48][DEBUG]Init server, load config file final result server_private_key = ----
+[2020-06-13 12:40:48][DEBUG]Init server, load config file final result single_login_server_database_name = single_login
+[2020-06-13 12:40:48][DEBUG]Init server, load config file final result single_login_server_database_ip = localhost
+[2020-06-13 12:40:48][DEBUG]Init server, load config file final result single_login_server_database_username = root
+[2020-06-13 12:40:48][DEBUG]Init server, load config file final result single_login_server_database_password = 12345678
+[2020-06-13 12:40:48][DEBUG]Init server, load config file final result single_login_server_ip_and_port = 0.0.0.0:50051
+[2020-06-13 12:40:48][DEBUG]UUID = 25f403da-5803-4d04-8b1a-61a284e8d799
+[2020-06-13 12:40:48][DEBUG]Server init success
+[2020-06-13 12:40:48][DEBUG]Server listening on 0.0.0.0:50051
+[2020-06-13 12:41:06][DEBUG]Load config file, file path = /single_login_src/SingleLoginServer/etc/SingleLoginServerConfig.json
+[2020-06-13 12:41:06][DEBUG]Load file to string, file path = /single_login_src/SingleLoginServer/etc/SingleLoginServerConfig.json
+[2020-06-13 12:41:06][DEBUG]Load file to string, file content = {
+    "ServerCertPath": "/single_login_src/SingleLoginServer/etc/serverCert.cert",
+    "ServerCertPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverPrikey.key",
+    "ServerDecryptPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key",
+    "ServerDatabaseName": "single_login",
+    "ServerDatabaseIP": "localhost",
+    "ServerDatabaseUserName": "root",
+    "ServerDatabaseUserPassword": "12345678",
+    "ServerIPAndPort": "0.0.0.0:50051"
+ }
+[2020-06-13 12:41:06][DEBUG]Load config file, config file content = {
+    "ServerCertPath": "/single_login_src/SingleLoginServer/etc/serverCert.cert",
+    "ServerCertPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverPrikey.key",
+    "ServerDecryptPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key",
+    "ServerDatabaseName": "single_login",
+    "ServerDatabaseIP": "localhost",
+    "ServerDatabaseUserName": "root",
+    "ServerDatabaseUserPassword": "12345678",
+    "ServerIPAndPort": "0.0.0.0:50051"
+ }
+[2020-06-13 12:41:06][DEBUG]Load config file, config file parse ok!
+[2020-06-13 12:41:06][DEBUG]Load config file, serverCertPath = /single_login_src/SingleLoginServer/etc/serverCert.cert
+[2020-06-13 12:41:06][DEBUG]Load file to string, file path = /single_login_src/SingleLoginServer/etc/serverCert.cert
+[2020-06-13 12:41:06][DEBUG]Load file to string, file content = -----BEGIN CERTIFICATE-----
+MIIFUjCCAzoCAQEwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgMAkNBMRUwEwYDVQQHDAxTYW5GcmFuY2lzY28xDzANBgNVBAoMBkdvb2dsZTEQ
+MA4GA1UECwwHeW91dHViZTEZMBcGA1UEAwwQd3d3Lm15c2VydmVyLmNvbTAeFw0x
+OTA5MjUxOTA4MDlaFw0yMDA5MjQxOTA4MDlaMG8xCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UEBwwMU2FuRnJhbmNpc2NvMQ8wDQYDVQQKDAZHb29nbGUx
+EDAOBgNVBAsMB3lvdXR1YmUxGTAXBgNVBAMMEHd3dy5teXNlcnZlci5jb20wggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDUR4x8u/w6wmIs9BHsWbAWcZyW
+nacQdxZh+ko1z7d26ybkfwUrw3KSeuwntEsOWNKrkt0ZvNs4OTDFshbEgkr6mkmp
+PTgd9PAZ0os4Hu7EMBy2E9el8XEt9FC/aqgbg9Mvj68s2Xc7I2BcgmIt6BQ48FRH
+54gVGf6vH6WFiSVStI4Nwcrhnf/EtPVcQwRHGYQu7jPnYBScDrz3w4Gnzxrexo35
+PqEcqZAVcQMEHASjqU6sDNhdLPzVoyRMpkofe6ykuE5E1qqbWGo7B+Rf7BfrFQ1R
+Tu8PYeOfN9GE46tnAAscsdAX/5AOL+kgx3ZCcMefJpizJOWxa8cG2dfOhiBTsfzu
+ipIqdR+kfLXJ4UcstegDsmr86vuP6KCCICidsjNK3WBX67w5huIDcnBx1LsReUhm
+9oFk+u2GC5uwnE9ksyubUJaJ+kKSh5Jnl7GFhtXX0C/ziM+CE1hEy1tXKMk+n0QK
+OJXAV/nxXCqVrm6oYJN4uSAKSzUJF8hzEyK4zm5h7sLjiYPvy7DMYpYNlPC4wHM7
+iYVDxKcE/VBOX1VjjNqmwlQYyb0D2jmXlJ9Es0DpUwMFmvZjVsatdarAcKl/I0gq
+6kKYofx8NMV9wP9rVhLnbLc8AKmC8TQl18SwYRbamJqbzyNFaHd/zDqWRRQP4cOi
+oWmJ57qQ2vUXEvWtRQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDT45/aFYUvd28v
+vHnw23bObJdF0X7l28ecB6W9WAt2gKBWQr0S2uhW0qfmUsVZ96h4x8KyPF0YCDD4
+tz2SL+Z84WiUZbg1uiY2FZsAjJTb+2lsWbJWSudSMCvyElDnMw6Wv5W1nIFBdE5f
++GaVWrv7dNW8uAUaBt3CtmYZ08EAtB/rtAMLUe+ufi0dh0BVST5UM8XZK/66kcV/
+9QSwclrV4FH+Hu8bJxwf4cOqBSThe0AZtiH8quCTyDgf0CdNNywWSVwyDFBng7/4
+PZNAHNoWFe6Pa/nVmR0TvSgxIZwTWGTEnH5qT9yv/D5nY3eHhgDD77lDjA5Dg2ib
+OEleXojDY0/0bQiqiRmJUbaPmNfbinmGLzWniAXeLHX4GfZkiRQx/STJ9bbdH3lu
+QsBrYRNsmwby4+Lrlk6OkauVq32qwznYQtnMkS51+LdUf+QOrQJr9maTm0AbQtsS
+y4mBMU44utP+yKq4GKO5UYbrWC/V+MmyHDdNMKv8nHndwcnoEEHJ+J0RAvN/fJdw
+YV5Vbf/0S1qmybYNizgdKT3tKpvzDHLyPTV2ujlGVv1I9D0tVu5Eh2jE4vL9mQaO
++1yL1PeHgVBfi2Km4nRr/Xdp20G3l2eyrR7nOBZ2SHKHVre+OXxY4emkEWkMmLAO
+lBEws9a1sDU+m49mH4/NX7qanxiTCw==
+-----END CERTIFICATE-----
+[2020-06-13 12:41:06][DEBUG]Load config file, serverCert  = -----BEGIN CERTIFICATE-----
+MIIFUjCCAzoCAQEwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgMAkNBMRUwEwYDVQQHDAxTYW5GcmFuY2lzY28xDzANBgNVBAoMBkdvb2dsZTEQ
+MA4GA1UECwwHeW91dHViZTEZMBcGA1UEAwwQd3d3Lm15c2VydmVyLmNvbTAeFw0x
+OTA5MjUxOTA4MDlaFw0yMDA5MjQxOTA4MDlaMG8xCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UEBwwMU2FuRnJhbmNpc2NvMQ8wDQYDVQQKDAZHb29nbGUx
+EDAOBgNVBAsMB3lvdXR1YmUxGTAXBgNVBAMMEHd3dy5teXNlcnZlci5jb20wggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDUR4x8u/w6wmIs9BHsWbAWcZyW
+nacQdxZh+ko1z7d26ybkfwUrw3KSeuwntEsOWNKrkt0ZvNs4OTDFshbEgkr6mkmp
+PTgd9PAZ0os4Hu7EMBy2E9el8XEt9FC/aqgbg9Mvj68s2Xc7I2BcgmIt6BQ48FRH
+54gVGf6vH6WFiSVStI4Nwcrhnf/EtPVcQwRHGYQu7jPnYBScDrz3w4Gnzxrexo35
+PqEcqZAVcQMEHASjqU6sDNhdLPzVoyRMpkofe6ykuE5E1qqbWGo7B+Rf7BfrFQ1R
+Tu8PYeOfN9GE46tnAAscsdAX/5AOL+kgx3ZCcMefJpizJOWxa8cG2dfOhiBTsfzu
+ipIqdR+kfLXJ4UcstegDsmr86vuP6KCCICidsjNK3WBX67w5huIDcnBx1LsReUhm
+9oFk+u2GC5uwnE9ksyubUJaJ+kKSh5Jnl7GFhtXX0C/ziM+CE1hEy1tXKMk+n0QK
+OJXAV/nxXCqVrm6oYJN4uSAKSzUJF8hzEyK4zm5h7sLjiYPvy7DMYpYNlPC4wHM7
+iYVDxKcE/VBOX1VjjNqmwlQYyb0D2jmXlJ9Es0DpUwMFmvZjVsatdarAcKl/I0gq
+6kKYofx8NMV9wP9rVhLnbLc8AKmC8TQl18SwYRbamJqbzyNFaHd/zDqWRRQP4cOi
+oWmJ57qQ2vUXEvWtRQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDT45/aFYUvd28v
+vHnw23bObJdF0X7l28ecB6W9WAt2gKBWQr0S2uhW0qfmUsVZ96h4x8KyPF0YCDD4
+tz2SL+Z84WiUZbg1uiY2FZsAjJTb+2lsWbJWSudSMCvyElDnMw6Wv5W1nIFBdE5f
++GaVWrv7dNW8uAUaBt3CtmYZ08EAtB/rtAMLUe+ufi0dh0BVST5UM8XZK/66kcV/
+9QSwclrV4FH+Hu8bJxwf4cOqBSThe0AZtiH8quCTyDgf0CdNNywWSVwyDFBng7/4
+PZNAHNoWFe6Pa/nVmR0TvSgxIZwTWGTEnH5qT9yv/D5nY3eHhgDD77lDjA5Dg2ib
+OEleXojDY0/0bQiqiRmJUbaPmNfbinmGLzWniAXeLHX4GfZkiRQx/STJ9bbdH3lu
+QsBrYRNsmwby4+Lrlk6OkauVq32qwznYQtnMkS51+LdUf+QOrQJr9maTm0AbQtsS
+y4mBMU44utP+yKq4GKO5UYbrWC/V+MmyHDdNMKv8nHndwcnoEEHJ+J0RAvN/fJdw
+YV5Vbf/0S1qmybYNizgdKT3tKpvzDHLyPTV2ujlGVv1I9D0tVu5Eh2jE4vL9mQaO
++1yL1PeHgVBfi2Km4nRr/Xdp20G3l2eyrR7nOBZ2SHKHVre+OXxY4emkEWkMmLAO
+lBEws9a1sDU+m49mH4/NX7qanxiTCw==
+-----END CERTIFICATE-----
+[2020-06-13 12:41:06][DEBUG]Load config file, serverCertPrivateKeyPath = /single_login_src/SingleLoginServer/etc/serverPrikey.key
+[2020-06-13 12:41:06][DEBUG]Load file to string, file path = /single_login_src/SingleLoginServer/etc/serverPrikey.key
+[2020-06-13 12:41:06][DEBUG]Load file to string, file content = -----BEGIN RSA PRIVATE KEY-----
+MIIJKQIBAAKCAgEA1EeMfLv8OsJiLPQR7FmwFnGclp2nEHcWYfpKNc+3dusm5H8F
+K8NyknrsJ7RLDljSq5LdGbzbODkwxbIWxIJK+ppJqT04HfTwGdKLOB7uxDActhPX
+pfFxLfRQv2qoG4PTL4+vLNl3OyNgXIJiLegUOPBUR+eIFRn+rx+lhYklUrSODcHK
+4Z3/xLT1XEMERxmELu4z52AUnA6898OBp88a3saN+T6hHKmQFXEDBBwEo6lOrAzY
+XSz81aMkTKZKH3uspLhORNaqm1hqOwfkX+wX6xUNUU7vD2HjnzfRhOOrZwALHLHQ
+F/+QDi/pIMd2QnDHnyaYsyTlsWvHBtnXzoYgU7H87oqSKnUfpHy1yeFHLLXoA7Jq
+/Or7j+iggiAonbIzSt1gV+u8OYbiA3JwcdS7EXlIZvaBZPrthgubsJxPZLMrm1CW
+ifpCkoeSZ5exhYbV19Av84jPghNYRMtbVyjJPp9ECjiVwFf58Vwqla5uqGCTeLkg
+Cks1CRfIcxMiuM5uYe7C44mD78uwzGKWDZTwuMBzO4mFQ8SnBP1QTl9VY4zapsJU
+GMm9A9o5l5SfRLNA6VMDBZr2Y1bGrXWqwHCpfyNIKupCmKH8fDTFfcD/a1YS52y3
+PACpgvE0JdfEsGEW2piam88jRWh3f8w6lkUUD+HDoqFpiee6kNr1FxL1rUUCAwEA
+AQKCAgEAqmoV+jzfrDxInFYD3X3SwvHKB4/ggnNX4KgR00lBu5Hj0yO1fwCUhctw
+sh8m8gmUdnCcVwEp6+TdppfldzQyBSS/ZcHjvwjXh6NiaFdMzurg4brkMC+38HBm
+MoTpF82oSFJNCvA5q5wmy51QPBJHyb4FqwPQV0BbGTOKqb0D3XVdZOXifWVd4why
+wPJ8CKgPWa2YtXKImQ+r3CtzdsfohldXunPw2xW0ucHT7gSgJNLSeYSGXaa0Ar3J
+ck88yjF603GyQ8khhTxha6pWSDs8qFhqLI/1kp+/IB6rcMdk3ndGdG6648kiWIFV
+4h6+bXAkkTtm8sn4K4qeaH2RphY+8/tw0VjQYSXzY/BRD6xwAhz0G6lSdutW/AdS
+zrcB2dBGac1mA1QGQkeKOBbJCzWlyDV9RE/+XtRmm+KLho8QrHwLHjT3yyX7QeK/
+XnDzlroXumU2It+G7VaUMZRL4cB2jH8+uKP3N01MCT6NO18cXD+CX8shZBieJXxx
++DSErzPSnT1jC66HoBycZEFN4LQqkVFRqZDS42ri9Fgy1KLI63q+YuayAORLgNrN
+58N0FbNwp6ZKouli9CRnDpWdRDoSgN+jjYdTc0fwaFbYX78QjeCtWTneHotUcjGj
+y9xN29hg63etzh0qwFNpHOH2U0iLbMrnyi2tVnlJZz93yVxa3zECggEBAOmCHa8K
+wGZG+ki1Zb/duoHgcgX7waVnw8t7IoY8pnKlSIrqeSz5RFboIEgo0RRJ8GopdG6P
+B7Os1xoBQZX9ducp0AYjZg8UkalOKQmYV/dOC2QpnBNbFeyBJK3ikUaj915a+RC9
+4RFDEiRC3TytvBmgunsMXI7Z51Mph64UdgpHca9lu2iDZ7eddbGItLAD6V1GDR7z
+2WrZs1s5+aeozZKpTfcqB2+nI6segV1Acb4omWW2RqPQc9B7Auxo1VNwAeftNHzq
+raFXcfFe1yA25/hNVVHalvYjDrKINIYH3OAEtJqgmsPB2CNhHuBm8KOfykGiK6vB
+yGDVz0XFCvl3Du8CggEBAOi5+GEivakl9rHxe3qnA/B2O+ldEjcMagIFF+3EQb5C
+Yl/GMPylnY4eDUdaNKPJhasIoj0x4O8E0CR2rKH4pzg+eDOrBMnO2SdJW37PUQiy
+V8E2eUwbKOsZpmi6oGo7K3iFTItcB/irgzP7IqxM4uCFFzOejXmz86+aZp+2rXYT
+gky2242IUFCpg0YNZVc8d0ciilQ90dQFBsMe0BZL/4wtbT6Ev8A1B+C2wsBVftvq
+47JujDmCPgrdFLluA15a0Lz6ekbNK9tkwGxjGJGPwPYiPtNWcZLA2xkPGb5zbfkY
+0zZHDOITS0vGmOvjlNHni9ZpLnOuoDFuW9Mf2Y2IhwsCggEARu26HIh0hty6e8l1
+/cDZPUgy+nRNjvOk+rMNep8DpEFmdqPgaPPSeV+LJsAXOkV3XJf5APg7S62NrR2C
+kY/rRS5jPOoVvzDtSfMu7fYzijBPr34gJZT+ZNeZj6QJot59blDN5PL4Yajw4sjY
+sOzI/TPgUS4hE1dHN/CegRc//8FR3AhX09hOcezHakTvNaQKh8WWiLdjbFxyaZyD
+pBTXVNxOjWxb0+N+JyVeADhqFGv6pHWooWvZMhObgLobSnv0aEGaNvOGCEMqnjnD
+uMpUzgyXhQST5HIjrcFHywqqYfWr8mgkep/wClce7OT35YvNAQDEqSh0uE1Z54SB
+3+L1SwKCAQEA2UwLZmcRv8X6udtH+BXJz9QVzKdiQpQMxyYKWa9N02AYimR7iOr6
+WaAlteG8FNItRK0jDxBrfcF4txM3zWRmflWV1mhwaB4DFHOiQp1AhGZBGd7LEwyp
+ABtLDa5z6bylsjqEZfrgVoeOUhLDJS4FCK48I65/WotzlRsNh0MCY6WDnC2Agn4s
+v6QHNnl7jiCfHoRZtJ6kNNscnUM/+BGt4izoO9+nSsg5OtBqtzsc4CpJwGkH9Qpu
+86XJm/nkm00gadNWKJWZxZglMw6z+fXHrgn7r0ifcu8vpA49c15D6LoNPDjLBqwN
+OguM7XPpmLQiFWjQPqNmX8Eza8XpVAWOUQKCAQBGi8PGKl6WRW99gy450hUtRDI5
+9xFP+sja1uz5ORWg+rwB1lXG1bZKnvGJo/Nmy4Egn7IW9+W9pyreaEkIZoxBH0v1
+YOMMmxDXzmKGj6+cNgJNw091Ca7ibRhUGfU59xsJwRrBI3kxieH/6+hJjFDRUNLg
+4PL4Dazx1pgfbe/PVguGghDSIpX5Ao2IF6GPxrhoYVfYu7QxWJLDoMImONnhAzej
+7v2IyD7P2dof3N3QlucLoVWGJrTYrqALQmHAY6WXyjbNGuQN5ZTapZHe6WLNcwYr
+gzd8mnb4vs2QGHA7R8eoWY5WgSPS4Hc4mMLyQ0qoAr8bbCXeHyAmla3lzPnx
+-----END RSA PRIVATE KEY-----
+[2020-06-13 12:41:06][DEBUG]Load config file, serverDecryptPrivateKeyPath = /single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key
+[2020-06-13 12:41:06][DEBUG]Load file to string, file path = /single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key
+[2020-06-13 12:41:06][DEBUG]Load file to string, file content = -----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAuC24gUsxt7HggDw1UPTEqekujh1Snd2h63j/+48ao6W4DYn1
+sAKFrjJWkeOiNsKJZmpFtPGnqxxXooyRSl1diMLVLkZqBLLd7xdqpr8J2e4IqzsU
+VdxZuNvROKYPpVM0AQwFf8Xd2qneWTkhM+PDdH4JM2Z+0G1LkyHO3g1ACJnUZqPg
+UrzuOxBVHMsQvmx94vdFmUldebwPAG1aPW42eJ29kxvvYDxRhFTEC7P6Rq5Rf+6J
+dgrj8WnP/iculGVb109PyuvfiI6KRjMh8DbD2l0YRIU5ua9uG4wp7BKLzpEaxsx9
+5MKDK1iUHL8sj9lh0ArtFDHoigVWb1FA4BQPcQIDAQABAoIBAASb4Eob/5qBMQUE
+fLER7vnxg+C6ix64NR0XYhCBfEEsHHb6RNOqvH2ndNMhxyVnqNiPQD9O7MszYl4G
+9nvN6lFJztvhlzWW5EbfZyPVFAIIGt9uEwwy/2vI1Gt+fFW+x0ZfbqPL58lZBt9k
+tpf90x5PKRvILNQ6Z/G+ntafrkKIzBHKHN7QzPN9vuXrj5JuBT56YG2rQeA4RVW3
+xY59abeyuXPsMw0W8bTCPgyHjdNUX7I+e+8ypX86w+y630aQs5gsSZtbfiKIHPGu
+Y7NM4Cy3e5t0rJtIQ2Kb+THZ+6mNFacieRp95sQRtlfVisaZSMVlb2hbU13SpDj4
+k8G4VyECgYEA2WwOa7wMaKMLIJC0WiPJzcgwiR4CmmBqhxdos0pqDDH8imoEXK1i
+a+6FRuYoKSirATqTlx+EPYrW/x9SQkmyDr6WaKqCW21FdEmIRQ0+1bt4VRfMFchK
+GH4x/tWCePyacdKJoNr0afZysUDpp74gJ9uJcSWFHLHHp5syJCZ1UKsCgYEA2Nul
+5hUuD4nc3w7Tq62+NkVLRxbMc+IJe7yDhEE51I+dRhp5I1sgBDoIfpZPgf5zO0Hk
+mMmio5w66K0RfO0LoKDbl0KU/YvzAHpGHs7l56DR+uk+wAwb3UiJBzaI+AtKc9jE
+sw207TETtuj21BhFMCu7bUqod/9Dm4hyCuIwuFMCgYASqGs0Y5bNA/DYgpJ3icqv
+lhZULfcbOFrr7N5XRHOFSGTbm+1z5o0jpfxZ8TZREeRa3qP7vAClJ1z717w/ZAOb
+sE9H/BnjrqTfLdA73L8fqE7TPo+M7vsszueLbtcbetHmIqMc4q1GypddDqz+cBpi
+UTyiMQ4TQE5Z27+ZypMWsQKBgGdWlAHGSgLBkW0B5cBDtQarkqm3pYn7RsWeGZXm
+dyZhoXKMnvlILUOWXAHmotCxbjvotIRSYZxRkIjcIB9F3mqW/M1hvxnrnMq3eb6o
+nUn5itZkW7CslIKoVBQJ2s9Iohv+Sg2BFJyK7HgXH7gGMMI5tMDp+Mnl7FOre5zQ
+GKNdAoGARYRV1uhwFepW604xOmpZc+1WRmZjjNcO9CAHE+Tb4qKaWU/CP/6qzW1Q
+wCvUojwnQxK/yP02D1oupKtpGRpPsfy+rfSQp4Wu/HhYlz7j5QLQP6isHOuZUt1z
+9AVz1RN3Wv+rEhOFvkOsO/OEmFRZSxEL1kxH01B3GWennSRsjZc=
+-----END RSA PRIVATE KEY-----
+[2020-06-13 12:41:06][DEBUG]Load config file, ServerDatabaseName = single_login
+[2020-06-13 12:41:06][DEBUG]Load config file, ServerDatabaseIP = localhost
+[2020-06-13 12:41:06][DEBUG]Load config file, ServerDatabaseUserName = root
+[2020-06-13 12:41:06][DEBUG]Load config file, ServerDatabaseUserPassword = 12345678
+[2020-06-13 12:41:06][DEBUG]Load config file, ServerIPAndPort = 0.0.0.0:50051
+[2020-06-13 12:41:06][DEBUG]Init server, load config file final result servercert = -----BEGIN CERTIFICATE-----
+MIIFUjCCAzoCAQEwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgMAkNBMRUwEwYDVQQHDAxTYW5GcmFuY2lzY28xDzANBgNVBAoMBkdvb2dsZTEQ
+MA4GA1UECwwHeW91dHViZTEZMBcGA1UEAwwQd3d3Lm15c2VydmVyLmNvbTAeFw0x
+OTA5MjUxOTA4MDlaFw0yMDA5MjQxOTA4MDlaMG8xCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UEBwwMU2FuRnJhbmNpc2NvMQ8wDQYDVQQKDAZHb29nbGUx
+EDAOBgNVBAsMB3lvdXR1YmUxGTAXBgNVBAMMEHd3dy5teXNlcnZlci5jb20wggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDUR4x8u/w6wmIs9BHsWbAWcZyW
+nacQdxZh+ko1z7d26ybkfwUrw3KSeuwntEsOWNKrkt0ZvNs4OTDFshbEgkr6mkmp
+PTgd9PAZ0os4Hu7EMBy2E9el8XEt9FC/aqgbg9Mvj68s2Xc7I2BcgmIt6BQ48FRH
+54gVGf6vH6WFiSVStI4Nwcrhnf/EtPVcQwRHGYQu7jPnYBScDrz3w4Gnzxrexo35
+PqEcqZAVcQMEHASjqU6sDNhdLPzVoyRMpkofe6ykuE5E1qqbWGo7B+Rf7BfrFQ1R
+Tu8PYeOfN9GE46tnAAscsdAX/5AOL+kgx3ZCcMefJpizJOWxa8cG2dfOhiBTsfzu
+ipIqdR+kfLXJ4UcstegDsmr86vuP6KCCICidsjNK3WBX67w5huIDcnBx1LsReUhm
+9oFk+u2GC5uwnE9ksyubUJaJ+kKSh5Jnl7GFhtXX0C/ziM+CE1hEy1tXKMk+n0QK
+OJXAV/nxXCqVrm6oYJN4uSAKSzUJF8hzEyK4zm5h7sLjiYPvy7DMYpYNlPC4wHM7
+iYVDxKcE/VBOX1VjjNqmwlQYyb0D2jmXlJ9Es0DpUwMFmvZjVsatdarAcKl/I0gq
+6kKYofx8NMV9wP9rVhLnbLc8AKmC8TQl18SwYRbamJqbzyNFaHd/zDqWRRQP4cOi
+oWmJ57qQ2vUXEvWtRQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDT45/aFYUvd28v
+vHnw23bObJdF0X7l28ecB6W9WAt2gKBWQr0S2uhW0qfmUsVZ96h4x8KyPF0YCDD4
+tz2SL+Z84WiUZbg1uiY2FZsAjJTb+2lsWbJWSudSMCvyElDnMw6Wv5W1nIFBdE5f
++GaVWrv7dNW8uAUaBt3CtmYZ08EAtB/rtAMLUe+ufi0dh0BVST5UM8XZK/66kcV/
+9QSwclrV4FH+Hu8bJxwf4cOqBSThe0AZtiH8quCTyDgf0CdNNywWSVwyDFBng7/4
+PZNAHNoWFe6Pa/nVmR0TvSgxIZwTWGTEnH5qT9yv/D5nY3eHhgDD77lDjA5Dg2ib
+OEleXojDY0/0bQiqiRmJUbaPmNfbinmGLzWniAXeLHX4GfZkiRQx/STJ9bbdH3lu
+QsBrYRNsmwby4+Lrlk6OkauVq32qwznYQtnMkS51+LdUf+QOrQJr9maTm0AbQtsS
+y4mBMU44utP+yKq4GKO5UYbrWC/V+MmyHDdNMKv8nHndwcnoEEHJ+J0RAvN/fJdw
+YV5Vbf/0S1qmybYNizgdKT3tKpvzDHLyPTV2ujlGVv1I9D0tVu5Eh2jE4vL9mQaO
++1yL1PeHgVBfi2Km4nRr/Xdp20G3l2eyrR7nOBZ2SHKHVre+OXxY4emkEWkMmLAO
+lBEws9a1sDU+m49mH4/NX7qanxiTCw==
+-----END CERTIFICATE-----
+[2020-06-13 12:41:06][DEBUG]Init server, load config file final result serverkey = -----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+[2020-06-13 12:41:06][DEBUG]Init server, load config file final result server_private_key = ----
+[2020-06-13 12:41:06][DEBUG]Init server, load config file final result single_login_server_database_name = single_login
+[2020-06-13 12:41:06][DEBUG]Init server, load config file final result single_login_server_database_ip = localhost
+[2020-06-13 12:41:06][DEBUG]Init server, load config file final result single_login_server_database_username = root
+[2020-06-13 12:41:06][DEBUG]Init server, load config file final result single_login_server_database_password = 12345678
+[2020-06-13 12:41:06][DEBUG]Init server, load config file final result single_login_server_ip_and_port = 0.0.0.0:50051
+[2020-06-13 12:41:06][DEBUG]UUID = 1612532a-4c08-48fd-b27a-b55e913c7ff1
+[2020-06-13 12:41:06][DEBUG]Server init success
+[2020-06-13 12:41:06][DEBUG]Server listening on 0.0.0.0:50051
+[2020-06-13 12:41:32][DEBUG]Check SQL parameter str = faip5555
+[2020-06-13 12:41:32][DEBUG]Check SQL parameter str = faip5555, check passed!
+[2020-06-13 12:41:32][DEBUG]Register user name =  faip5555
+[2020-06-13 12:41:32][DEBUG]Register user password =  J/gaxIvF1GNU5zg7iXi38LkXlTLFf8SgIAXvoeLfuY4BYqE14s80ChXpziA793MPG4rB83fSAi42LIMbWrgbRbyUYdGBPqtHgUa7DadD2b9pqCalo+cS4JlXoDoL0lPc7T09MctzPxLs3JGFxKgnO/aYrpVZGVLYY1JabmkBKc7Vqz1hQGtWBZcxjLVbWPirT8P6cHZZNcdk4abK6wIIAlzqZ1xb52Oe+8CwzMSWODNUwfvuXP0MT9tm/5N4jJEejgYqFuGK/VRX2SHKygAKIog4nwuNcRi2FgCLPFUWaZ4YmmXNAio4vqw0lBlGdTrgwE5fJXsWiKi5YcV2e/w8Sg==
+[2020-06-13 12:41:32][DEBUG]Register user password decyrpted =  faip5555
+[2020-06-13 12:41:32][DEBUG]Check SQL parameter str = faip5555
+[2020-06-13 12:41:32][DEBUG]Check SQL parameter str = faip5555, check passed!
+[2020-06-13 12:41:32][DEBUG]Save user info to db, user name = faip5555
+[2020-06-13 12:41:32][DEBUG]Check user name exist in db, query string = select * from t_user where user_name='%s'
+[2020-06-13 12:41:32][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:32][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:32][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:32][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:32][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user where user_name='%s'
+[2020-06-13 12:41:32][DEBUG]Do MySQL query function enter, param queryParam1 = faip5555
+[2020-06-13 12:41:32][DEBUG]Do MySQL query function enter, param queryParam2 = 
+[2020-06-13 12:41:32][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:32][DEBUG]Do MySQL query, query param1 escaped = faip5555
+[2020-06-13 12:41:32][DEBUG]Do MySQL query, query string with escaped param = select * from t_user where user_name='faip5555'
+[2020-06-13 12:41:32][DEBUG]o MySQL query, query result row count = 
+[2020-06-13 12:41:32][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:32][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:32][DEBUG]heck user name exist in db, query is succeed = 
+[2020-06-13 12:41:32][DEBUG]heck user name exist in db, query result row count = 
+[2020-06-13 12:41:32][DEBUG]Check user name exist in db, query error msg = 
+[2020-06-13 12:41:32][DEBUG]Save user info to db, user alread in db!
+[2020-06-13 12:41:43][DEBUG]Check SQL parameter str = faip5556
+[2020-06-13 12:41:43][DEBUG]Check SQL parameter str = faip5556, check passed!
+[2020-06-13 12:41:43][DEBUG]Register user name =  faip5556
+[2020-06-13 12:41:43][DEBUG]Register user password =  UhQXQ6by1VwJUky2qUpe0XcIZnucA63p8jCk+xDdjl+NZFFAWajZgDJ81qoaqJD1T4mFTsAhzUrUrOlcWrK2mJfXXN6uhALVA7kd6zIJNoRFfRztW0rcV92O25RlLHwW1W4UJIIWz1Os8WHa0Fm13na5HB/Wgoc1bsr5brWsLJT4HXOrBAHpLouHL2U1syulIOZZR0A2ZGiWOE+1Sk2qPYRqxYgQytqrTTTIymVD+Cli1OSs9ZkziIq9qw6ZPoWriqA42WmxxuZUuP3oSUwwtwzCRb8o3mmnFNmsPOeU3Oa7tkm6AzKWNLA3hYjXnD/zt1wIG8XicnEIelbg7P7PrA==
+[2020-06-13 12:41:43][DEBUG]Register user password decyrpted =  faip5556
+[2020-06-13 12:41:43][DEBUG]Check SQL parameter str = faip5556
+[2020-06-13 12:41:43][DEBUG]Check SQL parameter str = faip5556, check passed!
+[2020-06-13 12:41:43][DEBUG]Save user info to db, user name = faip5556
+[2020-06-13 12:41:43][DEBUG]Check user name exist in db, query string = select * from t_user where user_name='%s'
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user where user_name='%s'
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param queryParam2 = 
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query string with escaped param = select * from t_user where user_name='faip5556'
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query result row count = 
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:43][DEBUG]heck user name exist in db, query is succeed = 
+[2020-06-13 12:41:43][DEBUG]Check user name exist in db, query result row count = 
+[2020-06-13 12:41:43][DEBUG]Check user name exist in db, query error msg = 
+[2020-06-13 12:41:43][DEBUG]Save user info to db, user not in db!
+[2020-06-13 12:41:43][DEBUG]Save use hash salt to db, user name = faip5556
+[2020-06-13 12:41:43][DEBUG]Save use hash salt to db, generated random salt = 59cca9c2-71d0-47a1-900a-a2fc2257c405
+[2020-06-13 12:41:43][DEBUG]Save user has salt to db, insert string = insert into t_user_random_hash values('%s', '%s')
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param queryStr = insert into t_user_random_hash values('%s', '%s')
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param queryParam2 = 59cca9c2-71d0-47a1-900a-a2fc2257c405
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query param2 escaped = 59cca9c2-71d0-47a1-900a-a2fc2257c405
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query string with escaped param = insert into t_user_random_hash values('faip5556', '59cca9c2-71d0-47a1-900a-a2fc2257c405')
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query result row count = 
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:43][DEBUG]ave user hash salt to db, insert result is = 
+[2020-06-13 12:41:43][DEBUG]Save user hash salt to db, insert result row count = 
+[2020-06-13 12:41:43][DEBUG]Save user hash salt to db, insert error msg = 
+[2020-06-13 12:41:43][DEBUG]Save user hash salt to db, insert succeed!
+[2020-06-13 12:41:43][DEBUG]Save user info to db, hash salt got = 59cca9c2-71d0-47a1-900a-a2fc2257c405
+[2020-06-13 12:41:43][DEBUG]Save user info to db, user password bcrypt = $2a$12$j9qOlUHdQAKmQ/vWtGexwu9zifPY0ecTii/mJ6ZcO5trFN7iliHLq
+[2020-06-13 12:41:43][DEBUG]Save user info to db, insert string = insert into t_user values('%s', '%s')
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param queryStr = insert into t_user values('%s', '%s')
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param queryParam2 = $2a$12$j9qOlUHdQAKmQ/vWtGexwu9zifPY0ecTii/mJ6ZcO5trFN7iliHLq
+[2020-06-13 12:41:43][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query param2 escaped = $2a$12$j9qOlUHdQAKmQ/vWtGexwu9zifPY0ecTii/mJ6ZcO5trFN7iliHLq
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query string with escaped param = insert into t_user values('faip5556', '$2a$12$j9qOlUHdQAKmQ/vWtGexwu9zifPY0ecTii/mJ6ZcO5trFN7iliHLq')
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query result row count = 
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:43][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:43][DEBUG]ave user info to db, insert result is succeed = 
+[2020-06-13 12:41:43][DEBUG]Save user info to db, insert result row count = 
+[2020-06-13 12:41:43][DEBUG]Save user info to db, insert error msg = 
+[2020-06-13 12:41:43][DEBUG]Save user info to db, insert ok!
+[2020-06-13 12:41:52][DEBUG]Check SQL parameter str = faip5556
+[2020-06-13 12:41:52][DEBUG]Check SQL parameter str = faip5556, check passed!
+[2020-06-13 12:41:52][DEBUG]Check SQL parameter str = faip5556
+[2020-06-13 12:41:52][DEBUG]Check SQL parameter str = faip5556, check passed!
+[2020-06-13 12:41:52][DEBUG]Login user name =  faip5556
+[2020-06-13 12:41:52][DEBUG]Login user password =  faip5556
+[2020-06-13 12:41:52][DEBUG]Check user name exist in db, query string = select * from t_user where user_name='%s'
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user where user_name='%s'
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryParam2 = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query string with escaped param = select * from t_user where user_name='faip5556'
+[2020-06-13 12:41:52][DEBUG]o MySQL query, query result row count = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:52][DEBUG]heck user name exist in db, query is succeed = 
+[2020-06-13 12:41:52][DEBUG]heck user name exist in db, query result row count = 
+[2020-06-13 12:41:52][DEBUG]Check user name exist in db, query error msg = 
+[2020-06-13 12:41:52][DEBUG]Check user name and hashed password exist in db, query string = select * from t_user where user_name='%s'
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user where user_name='%s'
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryParam2 = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query string with escaped param = select * from t_user where user_name='faip5556'
+[2020-06-13 12:41:52][DEBUG]o MySQL query, query result row count = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:52][DEBUG]heck user name and hashed password exist in db, query is succeed = 
+[2020-06-13 12:41:52][DEBUG]heck user name and hashed password exist in db, query result row count = 
+[2020-06-13 12:41:52][DEBUG]Check user name and hashed password exist in db, query error msg = 
+[2020-06-13 12:41:52][DEBUG]Check user name and hashed password exist in db, pwd_bcrypt = $2a$12$j9qOlUHdQAKmQ/vWtGexwu9zifPY0ecTii/mJ6ZcO5trFN7iliHLq
+[2020-06-13 12:41:52][DEBUG]Get use hash salt, user name = faip5556
+[2020-06-13 12:41:52][DEBUG]Get user hash salt, query string = select * from t_user_random_hash where user_name='%s'
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user_random_hash where user_name='%s'
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryParam2 = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query string with escaped param = select * from t_user_random_hash where user_name='faip5556'
+[2020-06-13 12:41:52][DEBUG]o MySQL query, query result row count = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:52][DEBUG]Get user hash salt, final result = 59cca9c2-71d0-47a1-900a-a2fc2257c405
+[2020-06-13 12:41:52][DEBUG]Check user name and hashed password exist in db, bcrypt check ok!
+[2020-06-13 12:41:52][DEBUG]Current time milli =  1592052112526
+[2020-06-13 12:41:52][DEBUG]Token origin =  faip55561592052112526
+[2020-06-13 12:41:52][DEBUG]Token = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:52][DEBUG]Save user token to db, user name = faip5556
+[2020-06-13 12:41:52][DEBUG]Save user token to db, user token = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:52][DEBUG]Save user token to db, insert string = insert into t_user_token values('%s', '%s') ON DUPLICATE KEY UPDATE user_token='%s'
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryStr = insert into t_user_token values('%s', '%s') ON DUPLICATE KEY UPDATE user_token='%s'
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryParam2 = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:52][DEBUG]Do MySQL query function enter, param queryParam3 = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query param2 escaped = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query param3 escaped = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query string with escaped param = insert into t_user_token values('faip5556', 'caba0ba214e068439c7a2b07b8eeb5b5') ON DUPLICATE KEY UPDATE user_token='caba0ba214e068439c7a2b07b8eeb5b5'
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query result row count = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:52][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:53][DEBUG]Check SQL parameter str = faip5556
+[2020-06-13 12:41:53][DEBUG]Check SQL parameter str = faip5556, check passed!
+[2020-06-13 12:41:53][DEBUG]Check SQL parameter str = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:53][DEBUG]Check SQL parameter str = caba0ba214e068439c7a2b07b8eeb5b5, check passed!
+[2020-06-13 12:41:53][DEBUG]Check kick out user name =  faip5556
+[2020-06-13 12:41:53][DEBUG]Check kick out user token =  caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:53][DEBUG]Check user token exist in db, user name = faip5556
+[2020-06-13 12:41:53][DEBUG]Check user token exist in db, user token = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:53][DEBUG]Check user token exist in db, query string = select * from t_user_token where user_name='%s' and user_token='%s'
+[2020-06-13 12:41:53][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:53][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:53][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:53][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:53][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user_token where user_name='%s' and user_token='%s'
+[2020-06-13 12:41:53][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:53][DEBUG]Do MySQL query function enter, param queryParam2 = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:53][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:53][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:53][DEBUG]Do MySQL query, query param2 escaped = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:53][DEBUG]Do MySQL query, query string with escaped param = select * from t_user_token where user_name='faip5556' and user_token='caba0ba214e068439c7a2b07b8eeb5b5'
+[2020-06-13 12:41:53][DEBUG]o MySQL query, query result row count = 
+[2020-06-13 12:41:53][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:53][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:54][DEBUG]Check SQL parameter str = faip5556
+[2020-06-13 12:41:54][DEBUG]Check SQL parameter str = faip5556, check passed!
+[2020-06-13 12:41:54][DEBUG]Check SQL parameter str = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:54][DEBUG]Check SQL parameter str = caba0ba214e068439c7a2b07b8eeb5b5, check passed!
+[2020-06-13 12:41:54][DEBUG]Check kick out user name =  faip5556
+[2020-06-13 12:41:54][DEBUG]Check kick out user token =  caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:54][DEBUG]Check user token exist in db, user name = faip5556
+[2020-06-13 12:41:54][DEBUG]Check user token exist in db, user token = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:54][DEBUG]Check user token exist in db, query string = select * from t_user_token where user_name='%s' and user_token='%s'
+[2020-06-13 12:41:54][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:54][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:54][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:54][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:54][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user_token where user_name='%s' and user_token='%s'
+[2020-06-13 12:41:54][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:54][DEBUG]Do MySQL query function enter, param queryParam2 = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:54][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:54][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:54][DEBUG]Do MySQL query, query param2 escaped = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:54][DEBUG]Do MySQL query, query string with escaped param = select * from t_user_token where user_name='faip5556' and user_token='caba0ba214e068439c7a2b07b8eeb5b5'
+[2020-06-13 12:41:54][DEBUG]o MySQL query, query result row count = 
+[2020-06-13 12:41:54][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:54][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:55][DEBUG]Check SQL parameter str = faip5556
+[2020-06-13 12:41:55][DEBUG]Check SQL parameter str = faip5556, check passed!
+[2020-06-13 12:41:55][DEBUG]Check SQL parameter str = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:55][DEBUG]Check SQL parameter str = caba0ba214e068439c7a2b07b8eeb5b5, check passed!
+[2020-06-13 12:41:55][DEBUG]Check kick out user name =  faip5556
+[2020-06-13 12:41:55][DEBUG]Check kick out user token =  caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:55][DEBUG]Check user token exist in db, user name = faip5556
+[2020-06-13 12:41:55][DEBUG]Check user token exist in db, user token = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:55][DEBUG]Check user token exist in db, query string = select * from t_user_token where user_name='%s' and user_token='%s'
+[2020-06-13 12:41:55][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:55][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:55][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:55][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:55][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user_token where user_name='%s' and user_token='%s'
+[2020-06-13 12:41:55][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:55][DEBUG]Do MySQL query function enter, param queryParam2 = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:55][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:55][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:55][DEBUG]Do MySQL query, query param2 escaped = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:55][DEBUG]Do MySQL query, query string with escaped param = select * from t_user_token where user_name='faip5556' and user_token='caba0ba214e068439c7a2b07b8eeb5b5'
+[2020-06-13 12:41:55][DEBUG]o MySQL query, query result row count = 
+[2020-06-13 12:41:55][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:55][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:56][DEBUG]Check SQL parameter str = faip5556
+[2020-06-13 12:41:56][DEBUG]Check SQL parameter str = faip5556, check passed!
+[2020-06-13 12:41:56][DEBUG]Check SQL parameter str = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:56][DEBUG]Check SQL parameter str = caba0ba214e068439c7a2b07b8eeb5b5, check passed!
+[2020-06-13 12:41:56][DEBUG]Check kick out user name =  faip5556
+[2020-06-13 12:41:56][DEBUG]Check kick out user token =  caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:56][DEBUG]Check user token exist in db, user name = faip5556
+[2020-06-13 12:41:56][DEBUG]Check user token exist in db, user token = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:56][DEBUG]Check user token exist in db, query string = select * from t_user_token where user_name='%s' and user_token='%s'
+[2020-06-13 12:41:56][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:56][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:56][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:56][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:56][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user_token where user_name='%s' and user_token='%s'
+[2020-06-13 12:41:56][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:56][DEBUG]Do MySQL query function enter, param queryParam2 = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:56][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:56][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:56][DEBUG]Do MySQL query, query param2 escaped = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:56][DEBUG]Do MySQL query, query string with escaped param = select * from t_user_token where user_name='faip5556' and user_token='caba0ba214e068439c7a2b07b8eeb5b5'
+[2020-06-13 12:41:56][DEBUG]o MySQL query, query result row count = 
+[2020-06-13 12:41:56][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:56][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:57][DEBUG]Check SQL parameter str = faip5556
+[2020-06-13 12:41:57][DEBUG]Check SQL parameter str = faip5556, check passed!
+[2020-06-13 12:41:57][DEBUG]Check SQL parameter str = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:57][DEBUG]Check SQL parameter str = caba0ba214e068439c7a2b07b8eeb5b5, check passed!
+[2020-06-13 12:41:57][DEBUG]Check kick out user name =  faip5556
+[2020-06-13 12:41:57][DEBUG]Check kick out user token =  caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:57][DEBUG]Check user token exist in db, user name = faip5556
+[2020-06-13 12:41:57][DEBUG]Check user token exist in db, user token = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:57][DEBUG]Check user token exist in db, query string = select * from t_user_token where user_name='%s' and user_token='%s'
+[2020-06-13 12:41:57][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:57][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:57][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:57][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:57][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user_token where user_name='%s' and user_token='%s'
+[2020-06-13 12:41:57][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:57][DEBUG]Do MySQL query function enter, param queryParam2 = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:57][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:57][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:57][DEBUG]Do MySQL query, query param2 escaped = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:57][DEBUG]Do MySQL query, query string with escaped param = select * from t_user_token where user_name='faip5556' and user_token='caba0ba214e068439c7a2b07b8eeb5b5'
+[2020-06-13 12:41:57][DEBUG]o MySQL query, query result row count = 
+[2020-06-13 12:41:57][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:57][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:41:58][DEBUG]Check SQL parameter str = faip5556
+[2020-06-13 12:41:58][DEBUG]Check SQL parameter str = faip5556, check passed!
+[2020-06-13 12:41:58][DEBUG]Check SQL parameter str = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:58][DEBUG]Check SQL parameter str = caba0ba214e068439c7a2b07b8eeb5b5, check passed!
+[2020-06-13 12:41:58][DEBUG]Check kick out user name =  faip5556
+[2020-06-13 12:41:58][DEBUG]Check kick out user token =  caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:58][DEBUG]Check user token exist in db, user name = faip5556
+[2020-06-13 12:41:58][DEBUG]Check user token exist in db, user token = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:58][DEBUG]Check user token exist in db, query string = select * from t_user_token where user_name='%s' and user_token='%s'
+[2020-06-13 12:41:58][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:41:58][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:41:58][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:41:58][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:41:58][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user_token where user_name='%s' and user_token='%s'
+[2020-06-13 12:41:58][DEBUG]Do MySQL query function enter, param queryParam1 = faip5556
+[2020-06-13 12:41:58][DEBUG]Do MySQL query function enter, param queryParam2 = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:58][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:41:58][DEBUG]Do MySQL query, query param1 escaped = faip5556
+[2020-06-13 12:41:58][DEBUG]Do MySQL query, query param2 escaped = caba0ba214e068439c7a2b07b8eeb5b5
+[2020-06-13 12:41:58][DEBUG]Do MySQL query, query string with escaped param = select * from t_user_token where user_name='faip5556' and user_token='caba0ba214e068439c7a2b07b8eeb5b5'
+[2020-06-13 12:41:58][DEBUG]o MySQL query, query result row count = 
+[2020-06-13 12:41:58][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:41:58][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load config file, file path = /single_login_src/SingleLoginServer/etc/SingleLoginServerConfig.json
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load file to string, file path = /single_login_src/SingleLoginServer/etc/SingleLoginServerConfig.json
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load file to string, file content = {
+    "ServerCertPath": "/single_login_src/SingleLoginServer/etc/serverCert.cert",
+    "ServerCertPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverPrikey.key",
+    "ServerDecryptPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key",
+    "ServerDatabaseName": "single_login",
+    "ServerDatabaseIP": "localhost",
+    "ServerDatabaseUserName": "root",
+    "ServerDatabaseUserPassword": "12345678",
+    "ServerIPAndPort": "0.0.0.0:50051"
+ }
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load config file, config file content = {
+    "ServerCertPath": "/single_login_src/SingleLoginServer/etc/serverCert.cert",
+    "ServerCertPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverPrikey.key",
+    "ServerDecryptPrivateKeyPath": "/single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key",
+    "ServerDatabaseName": "single_login",
+    "ServerDatabaseIP": "localhost",
+    "ServerDatabaseUserName": "root",
+    "ServerDatabaseUserPassword": "12345678",
+    "ServerIPAndPort": "0.0.0.0:50051"
+ }
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load config file, config file parse ok!
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load config file, serverCertPath = /single_login_src/SingleLoginServer/etc/serverCert.cert
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load file to string, file path = /single_login_src/SingleLoginServer/etc/serverCert.cert
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load file to string, file content = -----BEGIN CERTIFICATE-----
+MIIFUjCCAzoCAQEwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgMAkNBMRUwEwYDVQQHDAxTYW5GcmFuY2lzY28xDzANBgNVBAoMBkdvb2dsZTEQ
+MA4GA1UECwwHeW91dHViZTEZMBcGA1UEAwwQd3d3Lm15c2VydmVyLmNvbTAeFw0x
+OTA5MjUxOTA4MDlaFw0yMDA5MjQxOTA4MDlaMG8xCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UEBwwMU2FuRnJhbmNpc2NvMQ8wDQYDVQQKDAZHb29nbGUx
+EDAOBgNVBAsMB3lvdXR1YmUxGTAXBgNVBAMMEHd3dy5teXNlcnZlci5jb20wggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDUR4x8u/w6wmIs9BHsWbAWcZyW
+nacQdxZh+ko1z7d26ybkfwUrw3KSeuwntEsOWNKrkt0ZvNs4OTDFshbEgkr6mkmp
+PTgd9PAZ0os4Hu7EMBy2E9el8XEt9FC/aqgbg9Mvj68s2Xc7I2BcgmIt6BQ48FRH
+54gVGf6vH6WFiSVStI4Nwcrhnf/EtPVcQwRHGYQu7jPnYBScDrz3w4Gnzxrexo35
+PqEcqZAVcQMEHASjqU6sDNhdLPzVoyRMpkofe6ykuE5E1qqbWGo7B+Rf7BfrFQ1R
+Tu8PYeOfN9GE46tnAAscsdAX/5AOL+kgx3ZCcMefJpizJOWxa8cG2dfOhiBTsfzu
+ipIqdR+kfLXJ4UcstegDsmr86vuP6KCCICidsjNK3WBX67w5huIDcnBx1LsReUhm
+9oFk+u2GC5uwnE9ksyubUJaJ+kKSh5Jnl7GFhtXX0C/ziM+CE1hEy1tXKMk+n0QK
+OJXAV/nxXCqVrm6oYJN4uSAKSzUJF8hzEyK4zm5h7sLjiYPvy7DMYpYNlPC4wHM7
+iYVDxKcE/VBOX1VjjNqmwlQYyb0D2jmXlJ9Es0DpUwMFmvZjVsatdarAcKl/I0gq
+6kKYofx8NMV9wP9rVhLnbLc8AKmC8TQl18SwYRbamJqbzyNFaHd/zDqWRRQP4cOi
+oWmJ57qQ2vUXEvWtRQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDT45/aFYUvd28v
+vHnw23bObJdF0X7l28ecB6W9WAt2gKBWQr0S2uhW0qfmUsVZ96h4x8KyPF0YCDD4
+tz2SL+Z84WiUZbg1uiY2FZsAjJTb+2lsWbJWSudSMCvyElDnMw6Wv5W1nIFBdE5f
++GaVWrv7dNW8uAUaBt3CtmYZ08EAtB/rtAMLUe+ufi0dh0BVST5UM8XZK/66kcV/
+9QSwclrV4FH+Hu8bJxwf4cOqBSThe0AZtiH8quCTyDgf0CdNNywWSVwyDFBng7/4
+PZNAHNoWFe6Pa/nVmR0TvSgxIZwTWGTEnH5qT9yv/D5nY3eHhgDD77lDjA5Dg2ib
+OEleXojDY0/0bQiqiRmJUbaPmNfbinmGLzWniAXeLHX4GfZkiRQx/STJ9bbdH3lu
+QsBrYRNsmwby4+Lrlk6OkauVq32qwznYQtnMkS51+LdUf+QOrQJr9maTm0AbQtsS
+y4mBMU44utP+yKq4GKO5UYbrWC/V+MmyHDdNMKv8nHndwcnoEEHJ+J0RAvN/fJdw
+YV5Vbf/0S1qmybYNizgdKT3tKpvzDHLyPTV2ujlGVv1I9D0tVu5Eh2jE4vL9mQaO
++1yL1PeHgVBfi2Km4nRr/Xdp20G3l2eyrR7nOBZ2SHKHVre+OXxY4emkEWkMmLAO
+lBEws9a1sDU+m49mH4/NX7qanxiTCw==
+-----END CERTIFICATE-----
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load config file, serverCert  = -----BEGIN CERTIFICATE-----
+MIIFUjCCAzoCAQEwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgMAkNBMRUwEwYDVQQHDAxTYW5GcmFuY2lzY28xDzANBgNVBAoMBkdvb2dsZTEQ
+MA4GA1UECwwHeW91dHViZTEZMBcGA1UEAwwQd3d3Lm15c2VydmVyLmNvbTAeFw0x
+OTA5MjUxOTA4MDlaFw0yMDA5MjQxOTA4MDlaMG8xCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UEBwwMU2FuRnJhbmNpc2NvMQ8wDQYDVQQKDAZHb29nbGUx
+EDAOBgNVBAsMB3lvdXR1YmUxGTAXBgNVBAMMEHd3dy5teXNlcnZlci5jb20wggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDUR4x8u/w6wmIs9BHsWbAWcZyW
+nacQdxZh+ko1z7d26ybkfwUrw3KSeuwntEsOWNKrkt0ZvNs4OTDFshbEgkr6mkmp
+PTgd9PAZ0os4Hu7EMBy2E9el8XEt9FC/aqgbg9Mvj68s2Xc7I2BcgmIt6BQ48FRH
+54gVGf6vH6WFiSVStI4Nwcrhnf/EtPVcQwRHGYQu7jPnYBScDrz3w4Gnzxrexo35
+PqEcqZAVcQMEHASjqU6sDNhdLPzVoyRMpkofe6ykuE5E1qqbWGo7B+Rf7BfrFQ1R
+Tu8PYeOfN9GE46tnAAscsdAX/5AOL+kgx3ZCcMefJpizJOWxa8cG2dfOhiBTsfzu
+ipIqdR+kfLXJ4UcstegDsmr86vuP6KCCICidsjNK3WBX67w5huIDcnBx1LsReUhm
+9oFk+u2GC5uwnE9ksyubUJaJ+kKSh5Jnl7GFhtXX0C/ziM+CE1hEy1tXKMk+n0QK
+OJXAV/nxXCqVrm6oYJN4uSAKSzUJF8hzEyK4zm5h7sLjiYPvy7DMYpYNlPC4wHM7
+iYVDxKcE/VBOX1VjjNqmwlQYyb0D2jmXlJ9Es0DpUwMFmvZjVsatdarAcKl/I0gq
+6kKYofx8NMV9wP9rVhLnbLc8AKmC8TQl18SwYRbamJqbzyNFaHd/zDqWRRQP4cOi
+oWmJ57qQ2vUXEvWtRQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDT45/aFYUvd28v
+vHnw23bObJdF0X7l28ecB6W9WAt2gKBWQr0S2uhW0qfmUsVZ96h4x8KyPF0YCDD4
+tz2SL+Z84WiUZbg1uiY2FZsAjJTb+2lsWbJWSudSMCvyElDnMw6Wv5W1nIFBdE5f
++GaVWrv7dNW8uAUaBt3CtmYZ08EAtB/rtAMLUe+ufi0dh0BVST5UM8XZK/66kcV/
+9QSwclrV4FH+Hu8bJxwf4cOqBSThe0AZtiH8quCTyDgf0CdNNywWSVwyDFBng7/4
+PZNAHNoWFe6Pa/nVmR0TvSgxIZwTWGTEnH5qT9yv/D5nY3eHhgDD77lDjA5Dg2ib
+OEleXojDY0/0bQiqiRmJUbaPmNfbinmGLzWniAXeLHX4GfZkiRQx/STJ9bbdH3lu
+QsBrYRNsmwby4+Lrlk6OkauVq32qwznYQtnMkS51+LdUf+QOrQJr9maTm0AbQtsS
+y4mBMU44utP+yKq4GKO5UYbrWC/V+MmyHDdNMKv8nHndwcnoEEHJ+J0RAvN/fJdw
+YV5Vbf/0S1qmybYNizgdKT3tKpvzDHLyPTV2ujlGVv1I9D0tVu5Eh2jE4vL9mQaO
++1yL1PeHgVBfi2Km4nRr/Xdp20G3l2eyrR7nOBZ2SHKHVre+OXxY4emkEWkMmLAO
+lBEws9a1sDU+m49mH4/NX7qanxiTCw==
+-----END CERTIFICATE-----
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load config file, serverCertPrivateKeyPath = /single_login_src/SingleLoginServer/etc/serverPrikey.key
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load file to string, file path = /single_login_src/SingleLoginServer/etc/serverPrikey.key
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load file to string, file content = -----BEGIN RSA PRIVATE KEY-----
+MIIJKQIBAAKCAgEA1EeMfLv8OsJiLPQR7FmwFnGclp2nEHcWYfpKNc+3dusm5H8F
+K8NyknrsJ7RLDljSq5LdGbzbODkwxbIWxIJK+ppJqT04HfTwGdKLOB7uxDActhPX
+pfFxLfRQv2qoG4PTL4+vLNl3OyNgXIJiLegUOPBUR+eIFRn+rx+lhYklUrSODcHK
+4Z3/xLT1XEMERxmELu4z52AUnA6898OBp88a3saN+T6hHKmQFXEDBBwEo6lOrAzY
+XSz81aMkTKZKH3uspLhORNaqm1hqOwfkX+wX6xUNUU7vD2HjnzfRhOOrZwALHLHQ
+F/+QDi/pIMd2QnDHnyaYsyTlsWvHBtnXzoYgU7H87oqSKnUfpHy1yeFHLLXoA7Jq
+/Or7j+iggiAonbIzSt1gV+u8OYbiA3JwcdS7EXlIZvaBZPrthgubsJxPZLMrm1CW
+ifpCkoeSZ5exhYbV19Av84jPghNYRMtbVyjJPp9ECjiVwFf58Vwqla5uqGCTeLkg
+Cks1CRfIcxMiuM5uYe7C44mD78uwzGKWDZTwuMBzO4mFQ8SnBP1QTl9VY4zapsJU
+GMm9A9o5l5SfRLNA6VMDBZr2Y1bGrXWqwHCpfyNIKupCmKH8fDTFfcD/a1YS52y3
+PACpgvE0JdfEsGEW2piam88jRWh3f8w6lkUUD+HDoqFpiee6kNr1FxL1rUUCAwEA
+AQKCAgEAqmoV+jzfrDxInFYD3X3SwvHKB4/ggnNX4KgR00lBu5Hj0yO1fwCUhctw
+sh8m8gmUdnCcVwEp6+TdppfldzQyBSS/ZcHjvwjXh6NiaFdMzurg4brkMC+38HBm
+MoTpF82oSFJNCvA5q5wmy51QPBJHyb4FqwPQV0BbGTOKqb0D3XVdZOXifWVd4why
+wPJ8CKgPWa2YtXKImQ+r3CtzdsfohldXunPw2xW0ucHT7gSgJNLSeYSGXaa0Ar3J
+ck88yjF603GyQ8khhTxha6pWSDs8qFhqLI/1kp+/IB6rcMdk3ndGdG6648kiWIFV
+4h6+bXAkkTtm8sn4K4qeaH2RphY+8/tw0VjQYSXzY/BRD6xwAhz0G6lSdutW/AdS
+zrcB2dBGac1mA1QGQkeKOBbJCzWlyDV9RE/+XtRmm+KLho8QrHwLHjT3yyX7QeK/
+XnDzlroXumU2It+G7VaUMZRL4cB2jH8+uKP3N01MCT6NO18cXD+CX8shZBieJXxx
++DSErzPSnT1jC66HoBycZEFN4LQqkVFRqZDS42ri9Fgy1KLI63q+YuayAORLgNrN
+58N0FbNwp6ZKouli9CRnDpWdRDoSgN+jjYdTc0fwaFbYX78QjeCtWTneHotUcjGj
+y9xN29hg63etzh0qwFNpHOH2U0iLbMrnyi2tVnlJZz93yVxa3zECggEBAOmCHa8K
+wGZG+ki1Zb/duoHgcgX7waVnw8t7IoY8pnKlSIrqeSz5RFboIEgo0RRJ8GopdG6P
+B7Os1xoBQZX9ducp0AYjZg8UkalOKQmYV/dOC2QpnBNbFeyBJK3ikUaj915a+RC9
+4RFDEiRC3TytvBmgunsMXI7Z51Mph64UdgpHca9lu2iDZ7eddbGItLAD6V1GDR7z
+2WrZs1s5+aeozZKpTfcqB2+nI6segV1Acb4omWW2RqPQc9B7Auxo1VNwAeftNHzq
+raFXcfFe1yA25/hNVVHalvYjDrKINIYH3OAEtJqgmsPB2CNhHuBm8KOfykGiK6vB
+yGDVz0XFCvl3Du8CggEBAOi5+GEivakl9rHxe3qnA/B2O+ldEjcMagIFF+3EQb5C
+Yl/GMPylnY4eDUdaNKPJhasIoj0x4O8E0CR2rKH4pzg+eDOrBMnO2SdJW37PUQiy
+V8E2eUwbKOsZpmi6oGo7K3iFTItcB/irgzP7IqxM4uCFFzOejXmz86+aZp+2rXYT
+gky2242IUFCpg0YNZVc8d0ciilQ90dQFBsMe0BZL/4wtbT6Ev8A1B+C2wsBVftvq
+47JujDmCPgrdFLluA15a0Lz6ekbNK9tkwGxjGJGPwPYiPtNWcZLA2xkPGb5zbfkY
+0zZHDOITS0vGmOvjlNHni9ZpLnOuoDFuW9Mf2Y2IhwsCggEARu26HIh0hty6e8l1
+/cDZPUgy+nRNjvOk+rMNep8DpEFmdqPgaPPSeV+LJsAXOkV3XJf5APg7S62NrR2C
+kY/rRS5jPOoVvzDtSfMu7fYzijBPr34gJZT+ZNeZj6QJot59blDN5PL4Yajw4sjY
+sOzI/TPgUS4hE1dHN/CegRc//8FR3AhX09hOcezHakTvNaQKh8WWiLdjbFxyaZyD
+pBTXVNxOjWxb0+N+JyVeADhqFGv6pHWooWvZMhObgLobSnv0aEGaNvOGCEMqnjnD
+uMpUzgyXhQST5HIjrcFHywqqYfWr8mgkep/wClce7OT35YvNAQDEqSh0uE1Z54SB
+3+L1SwKCAQEA2UwLZmcRv8X6udtH+BXJz9QVzKdiQpQMxyYKWa9N02AYimR7iOr6
+WaAlteG8FNItRK0jDxBrfcF4txM3zWRmflWV1mhwaB4DFHOiQp1AhGZBGd7LEwyp
+ABtLDa5z6bylsjqEZfrgVoeOUhLDJS4FCK48I65/WotzlRsNh0MCY6WDnC2Agn4s
+v6QHNnl7jiCfHoRZtJ6kNNscnUM/+BGt4izoO9+nSsg5OtBqtzsc4CpJwGkH9Qpu
+86XJm/nkm00gadNWKJWZxZglMw6z+fXHrgn7r0ifcu8vpA49c15D6LoNPDjLBqwN
+OguM7XPpmLQiFWjQPqNmX8Eza8XpVAWOUQKCAQBGi8PGKl6WRW99gy450hUtRDI5
+9xFP+sja1uz5ORWg+rwB1lXG1bZKnvGJo/Nmy4Egn7IW9+W9pyreaEkIZoxBH0v1
+YOMMmxDXzmKGj6+cNgJNw091Ca7ibRhUGfU59xsJwRrBI3kxieH/6+hJjFDRUNLg
+4PL4Dazx1pgfbe/PVguGghDSIpX5Ao2IF6GPxrhoYVfYu7QxWJLDoMImONnhAzej
+7v2IyD7P2dof3N3QlucLoVWGJrTYrqALQmHAY6WXyjbNGuQN5ZTapZHe6WLNcwYr
+gzd8mnb4vs2QGHA7R8eoWY5WgSPS4Hc4mMLyQ0qoAr8bbCXeHyAmla3lzPnx
+-----END RSA PRIVATE KEY-----
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load config file, serverDecryptPrivateKeyPath = /single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load file to string, file path = /single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load file to string, file content = -----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAuC24gUsxt7HggDw1UPTEqekujh1Snd2h63j/+48ao6W4DYn1
+sAKFrjJWkeOiNsKJZmpFtPGnqxxXooyRSl1diMLVLkZqBLLd7xdqpr8J2e4IqzsU
+VdxZuNvROKYPpVM0AQwFf8Xd2qneWTkhM+PDdH4JM2Z+0G1LkyHO3g1ACJnUZqPg
+UrzuOxBVHMsQvmx94vdFmUldebwPAG1aPW42eJ29kxvvYDxRhFTEC7P6Rq5Rf+6J
+dgrj8WnP/iculGVb109PyuvfiI6KRjMh8DbD2l0YRIU5ua9uG4wp7BKLzpEaxsx9
+5MKDK1iUHL8sj9lh0ArtFDHoigVWb1FA4BQPcQIDAQABAoIBAASb4Eob/5qBMQUE
+fLER7vnxg+C6ix64NR0XYhCBfEEsHHb6RNOqvH2ndNMhxyVnqNiPQD9O7MszYl4G
+9nvN6lFJztvhlzWW5EbfZyPVFAIIGt9uEwwy/2vI1Gt+fFW+x0ZfbqPL58lZBt9k
+tpf90x5PKRvILNQ6Z/G+ntafrkKIzBHKHN7QzPN9vuXrj5JuBT56YG2rQeA4RVW3
+xY59abeyuXPsMw0W8bTCPgyHjdNUX7I+e+8ypX86w+y630aQs5gsSZtbfiKIHPGu
+Y7NM4Cy3e5t0rJtIQ2Kb+THZ+6mNFacieRp95sQRtlfVisaZSMVlb2hbU13SpDj4
+k8G4VyECgYEA2WwOa7wMaKMLIJC0WiPJzcgwiR4CmmBqhxdos0pqDDH8imoEXK1i
+a+6FRuYoKSirATqTlx+EPYrW/x9SQkmyDr6WaKqCW21FdEmIRQ0+1bt4VRfMFchK
+GH4x/tWCePyacdKJoNr0afZysUDpp74gJ9uJcSWFHLHHp5syJCZ1UKsCgYEA2Nul
+5hUuD4nc3w7Tq62+NkVLRxbMc+IJe7yDhEE51I+dRhp5I1sgBDoIfpZPgf5zO0Hk
+mMmio5w66K0RfO0LoKDbl0KU/YvzAHpGHs7l56DR+uk+wAwb3UiJBzaI+AtKc9jE
+sw207TETtuj21BhFMCu7bUqod/9Dm4hyCuIwuFMCgYASqGs0Y5bNA/DYgpJ3icqv
+lhZULfcbOFrr7N5XRHOFSGTbm+1z5o0jpfxZ8TZREeRa3qP7vAClJ1z717w/ZAOb
+sE9H/BnjrqTfLdA73L8fqE7TPo+M7vsszueLbtcbetHmIqMc4q1GypddDqz+cBpi
+UTyiMQ4TQE5Z27+ZypMWsQKBgGdWlAHGSgLBkW0B5cBDtQarkqm3pYn7RsWeGZXm
+dyZhoXKMnvlILUOWXAHmotCxbjvotIRSYZxRkIjcIB9F3mqW/M1hvxnrnMq3eb6o
+nUn5itZkW7CslIKoVBQJ2s9Iohv+Sg2BFJyK7HgXH7gGMMI5tMDp+Mnl7FOre5zQ
+GKNdAoGARYRV1uhwFepW604xOmpZc+1WRmZjjNcO9CAHE+Tb4qKaWU/CP/6qzW1Q
+wCvUojwnQxK/yP02D1oupKtpGRpPsfy+rfSQp4Wu/HhYlz7j5QLQP6isHOuZUt1z
+9AVz1RN3Wv+rEhOFvkOsO/OEmFRZSxEL1kxH01B3GWennSRsjZc=
+-----END RSA PRIVATE KEY-----
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load config file, ServerDatabaseName = single_login
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load config file, ServerDatabaseIP = localhost
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load config file, ServerDatabaseUserName = root
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load config file, ServerDatabaseUserPassword = 12345678
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Load config file, ServerIPAndPort = 0.0.0.0:50051
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Init server, load config file final result servercert = -----BEGIN CERTIFICATE-----
+MIIFUjCCAzoCAQEwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgMAkNBMRUwEwYDVQQHDAxTYW5GcmFuY2lzY28xDzANBgNVBAoMBkdvb2dsZTEQ
+MA4GA1UECwwHeW91dHViZTEZMBcGA1UEAwwQd3d3Lm15c2VydmVyLmNvbTAeFw0x
+OTA5MjUxOTA4MDlaFw0yMDA5MjQxOTA4MDlaMG8xCzAJBgNVBAYTAlVTMQswCQYD
+VQQIDAJDQTEVMBMGA1UEBwwMU2FuRnJhbmNpc2NvMQ8wDQYDVQQKDAZHb29nbGUx
+EDAOBgNVBAsMB3lvdXR1YmUxGTAXBgNVBAMMEHd3dy5teXNlcnZlci5jb20wggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDUR4x8u/w6wmIs9BHsWbAWcZyW
+nacQdxZh+ko1z7d26ybkfwUrw3KSeuwntEsOWNKrkt0ZvNs4OTDFshbEgkr6mkmp
+PTgd9PAZ0os4Hu7EMBy2E9el8XEt9FC/aqgbg9Mvj68s2Xc7I2BcgmIt6BQ48FRH
+54gVGf6vH6WFiSVStI4Nwcrhnf/EtPVcQwRHGYQu7jPnYBScDrz3w4Gnzxrexo35
+PqEcqZAVcQMEHASjqU6sDNhdLPzVoyRMpkofe6ykuE5E1qqbWGo7B+Rf7BfrFQ1R
+Tu8PYeOfN9GE46tnAAscsdAX/5AOL+kgx3ZCcMefJpizJOWxa8cG2dfOhiBTsfzu
+ipIqdR+kfLXJ4UcstegDsmr86vuP6KCCICidsjNK3WBX67w5huIDcnBx1LsReUhm
+9oFk+u2GC5uwnE9ksyubUJaJ+kKSh5Jnl7GFhtXX0C/ziM+CE1hEy1tXKMk+n0QK
+OJXAV/nxXCqVrm6oYJN4uSAKSzUJF8hzEyK4zm5h7sLjiYPvy7DMYpYNlPC4wHM7
+iYVDxKcE/VBOX1VjjNqmwlQYyb0D2jmXlJ9Es0DpUwMFmvZjVsatdarAcKl/I0gq
+6kKYofx8NMV9wP9rVhLnbLc8AKmC8TQl18SwYRbamJqbzyNFaHd/zDqWRRQP4cOi
+oWmJ57qQ2vUXEvWtRQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDT45/aFYUvd28v
+vHnw23bObJdF0X7l28ecB6W9WAt2gKBWQr0S2uhW0qfmUsVZ96h4x8KyPF0YCDD4
+tz2SL+Z84WiUZbg1uiY2FZsAjJTb+2lsWbJWSudSMCvyElDnMw6Wv5W1nIFBdE5f
++GaVWrv7dNW8uAUaBt3CtmYZ08EAtB/rtAMLUe+ufi0dh0BVST5UM8XZK/66kcV/
+9QSwclrV4FH+Hu8bJxwf4cOqBSThe0AZtiH8quCTyDgf0CdNNywWSVwyDFBng7/4
+PZNAHNoWFe6Pa/nVmR0TvSgxIZwTWGTEnH5qT9yv/D5nY3eHhgDD77lDjA5Dg2ib
+OEleXojDY0/0bQiqiRmJUbaPmNfbinmGLzWniAXeLHX4GfZkiRQx/STJ9bbdH3lu
+QsBrYRNsmwby4+Lrlk6OkauVq32qwznYQtnMkS51+LdUf+QOrQJr9maTm0AbQtsS
+y4mBMU44utP+yKq4GKO5UYbrWC/V+MmyHDdNMKv8nHndwcnoEEHJ+J0RAvN/fJdw
+YV5Vbf/0S1qmybYNizgdKT3tKpvzDHLyPTV2ujlGVv1I9D0tVu5Eh2jE4vL9mQaO
++1yL1PeHgVBfi2Km4nRr/Xdp20G3l2eyrR7nOBZ2SHKHVre+OXxY4emkEWkMmLAO
+lBEws9a1sDU+m49mH4/NX7qanxiTCw==
+-----END CERTIFICATE-----
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Init server, load config file final result serverkey = -----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Init server, load config file final result server_private_key = ----
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Init server, load config file final result single_login_server_database_name = single_login
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Init server, load config file final result single_login_server_database_ip = localhost
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Init server, load config file final result single_login_server_database_username = root
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Init server, load config file final result single_login_server_database_password = 12345678
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Init server, load config file final result single_login_server_ip_and_port = 0.0.0.0:50051
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]UUID = f335dd27-ac63-415d-b85e-7f61f4a78db2
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Server init success
+[2020-06-13 12:44:18][0d6b148c-b30a-4f2e-a6b0-08995a07e54c][DEBUG]Server listening on 0.0.0.0:50051
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Check SQL parameter str = 123456
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Check SQL parameter str = 123456, check passed!
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Check SQL parameter str = 123456
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Check SQL parameter str = 123456, check passed!
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Login user name =  123456
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Login user password =  123456
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Check user name exist in db, query string = select * from t_user where user_name='%s'
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user where user_name='%s'
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query function enter, param queryParam1 = 123456
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query function enter, param queryParam2 = 
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query, query param1 escaped = 123456
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query, query string with escaped param = select * from t_user where user_name='123456'
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query, query result row count = 
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]heck user name exist in db, query is succeed = 
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Check user name exist in db, query result row count = 
+[2020-06-13 12:44:40][7962f001-1ed0-4c44-83a3-158e3cd348ab][DEBUG]Check user name exist in db, query error msg = 
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Check SQL parameter str = 123456
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Check SQL parameter str = 123456, check passed!
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Check SQL parameter str = 123456
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Check SQL parameter str = 123456, check passed!
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Login user name =  123456
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Login user password =  123456
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Check user name exist in db, query string = select * from t_user where user_name='%s'
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query function enter, param dbName = single_login
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query function enter, param dbIP = localhost
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query function enter, param dbUserName = root
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query function enter, param dbUserPwd = 12345678
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query function enter, param queryStr = select * from t_user where user_name='%s'
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query function enter, param queryParam1 = 123456
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query function enter, param queryParam2 = 
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query function enter, param queryParam3 = 
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query, query param1 escaped = 123456
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query, query string with escaped param = select * from t_user where user_name='123456'
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query, query result row count = 
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query, query result error msg = 
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Do MySQL query, query succeed!
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]heck user name exist in db, query is succeed = 
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Check user name exist in db, query result row count = 
+[2020-06-13 12:44:50][e2410cfb-0353-4aee-8e76-a8bf7afad639][DEBUG]Check user name exist in db, query error msg = 

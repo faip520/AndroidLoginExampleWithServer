@@ -1,0 +1,29 @@
+{
+  "ndkFolder": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle",
+  "messages": [
+    {
+      "level": "INFO",
+      "message": "android.ndkVersion from module build.gradle is not set"
+    },
+    {
+      "level": "INFO",
+      "message": "ndk.dir in local.properties is not set"
+    },
+    {
+      "level": "INFO",
+      "message": "ANDROID_NDK_HOME environment variable is not set"
+    },
+    {
+      "level": "INFO",
+      "message": "sdkFolder is /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle in SDK ndk-bundle folder"
+    },
+    {
+      "level": "INFO",
+      "message": "No user requested version, choosing /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle which is version 18.1.5063045"
+    }
+  ]
+}

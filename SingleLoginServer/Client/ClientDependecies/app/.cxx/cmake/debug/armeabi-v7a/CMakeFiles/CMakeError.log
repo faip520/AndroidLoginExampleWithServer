@@ -1,0 +1,861 @@
+Determining if the function res_servicename exists in the resolv failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_cc1eb"
+[1/2] Building C object CMakeFiles/cmTC_cc1eb.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_cc1eb
+FAILED: : && /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=res_servicename  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fpie CMakeFiles/cmTC_cc1eb.dir/CheckFunctionExists.c.o  -o cmTC_cc1eb  -lresolv -latomic -lm && :
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lresolv
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/share/cmake-3.6/Modules/CheckFunctionExists.c:17: error: undefined reference to 'res_servicename'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function gethostbyname exists in the nsl failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_a4ae3"
+[1/2] Building C object CMakeFiles/cmTC_a4ae3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a4ae3
+FAILED: : && /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=gethostbyname  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fpie CMakeFiles/cmTC_a4ae3.dir/CheckFunctionExists.c.o  -o cmTC_a4ae3  -lnsl -latomic -lm && :
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lnsl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function gethostbyname exists in the socket failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_a42c9"
+[1/2] Building C object CMakeFiles/cmTC_a42c9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a42c9
+FAILED: : && /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=gethostbyname  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fpie CMakeFiles/cmTC_a42c9.dir/CheckFunctionExists.c.o  -o cmTC_a42c9  -lsocket -latomic -lm && :
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lsocket
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function socket exists in the socket failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_c25f5"
+[1/2] Building C object CMakeFiles/cmTC_c25f5.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c25f5
+FAILED: : && /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=socket  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fpie CMakeFiles/cmTC_c25f5.dir/CheckFunctionExists.c.o  -o cmTC_c25f5  -lsocket -latomic -lm && :
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lsocket
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_0baaa"
+[1/2] Building C object CMakeFiles/cmTC_0baaa.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0baaa
+FAILED: : && /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=clock_gettime  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fpie CMakeFiles/cmTC_0baaa.dir/CheckFunctionExists.c.o  -o cmTC_0baaa  -lrt -latomic -lm && :
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if files socket.h exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_34c3b"
+[1/2] Building C object CMakeFiles/cmTC_34c3b.dir/CheckIncludeFiles.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_34c3b.dir/CheckIncludeFiles.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'socket.h' file not found
+#include <socket.h>
+         ^~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <socket.h>
+
+
+int main(void){return 0;}
+
+Determining if files stropts.h exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_24bb6"
+[1/2] Building C object CMakeFiles/cmTC_24bb6.dir/CheckIncludeFiles.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_24bb6.dir/CheckIncludeFiles.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'stropts.h' file not found
+#include <stropts.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;windows.h exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_3e37e"
+[1/2] Building C object CMakeFiles/cmTC_3e37e.dir/CheckIncludeFiles.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_3e37e.dir/CheckIncludeFiles.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'winsock2.h' file not found
+#include <winsock2.h>
+         ^~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <winsock2.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;ws2tcpip.h;windows.h exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_2b8db"
+[1/2] Building C object CMakeFiles/cmTC_2b8db.dir/CheckIncludeFiles.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_2b8db.dir/CheckIncludeFiles.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'winsock2.h' file not found
+#include <winsock2.h>
+         ^~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock.h;windows.h exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_399fb"
+[1/2] Building C object CMakeFiles/cmTC_399fb.dir/CheckIncludeFiles.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_399fb.dir/CheckIncludeFiles.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'winsock.h' file not found
+#include <winsock.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <winsock.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_ee6f4"
+[1/2] Building C object CMakeFiles/cmTC_ee6f4.dir/CheckIncludeFiles.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_ee6f4.dir/CheckIncludeFiles.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_TYPE_SOCKET failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_b8e13"
+[1/2] Building C object CMakeFiles/cmTC_b8e13.dir/src.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DHAVE_TYPE_SOCKET -fPIE -o CMakeFiles/cmTC_b8e13.dir/src.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/src.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/src.c:26:4: error: use of undeclared identifier 'SOCKET'
+                        SOCKET var_exists;
+                        ^
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/src.c:27:10: error: use of undeclared identifier 'var_exists'
+                        (void)var_exists;
+                              ^
+2 errors generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			SOCKET var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Determining if the SO_NONBLOCK exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_4fad9"
+[1/2] Building C object CMakeFiles/cmTC_4fad9.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_4fad9.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'SO_NONBLOCK'
+  return ((int*)(&SO_NONBLOCK))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_NONBLOCK
+  return ((int*)(&SO_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the bitncmp exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_84c4c"
+[1/2] Building C object CMakeFiles/cmTC_84c4c.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_84c4c.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'bitncmp'
+  return ((int*)(&bitncmp))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bitncmp
+  return ((int*)(&bitncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the closesocket exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_4c5b9"
+[1/2] Building C object CMakeFiles/cmTC_4c5b9.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_4c5b9.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'closesocket'
+  return ((int*)(&closesocket))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closesocket
+  return ((int*)(&closesocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CloseSocket exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_f1b97"
+[1/2] Building C object CMakeFiles/cmTC_f1b97.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_f1b97.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'CloseSocket'
+  return ((int*)(&CloseSocket))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CloseSocket
+  return ((int*)(&CloseSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getservbyport_r exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_b0cba"
+[1/2] Building C object CMakeFiles/cmTC_b0cba.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_b0cba.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'getservbyport_r'; did you mean 'getservbyport'?
+  return ((int*)(&getservbyport_r))[argc];
+                  ^~~~~~~~~~~~~~~
+                  getservbyport
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/netdb.h:262:17: note: 'getservbyport' declared here
+struct servent* getservbyport(int __port_in_network_order, const char* __proto);
+                ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyport_r
+  return ((int*)(&getservbyport_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_net_pton exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_3743f"
+[1/2] Building C object CMakeFiles/cmTC_3743f.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_3743f.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'inet_net_pton'; did you mean 'inet_pton'?
+  return ((int*)(&inet_net_pton))[argc];
+                  ^~~~~~~~~~~~~
+                  inet_pton
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arpa/inet.h:53:5: note: 'inet_pton' declared here
+int inet_pton(int __af, const char* __src, void* __dst);
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_net_pton
+  return ((int*)(&inet_net_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctl exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_39d07"
+[1/2] Building C object CMakeFiles/cmTC_39d07.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_39d07.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: address of overloaded function 'ioctl' is ambiguous
+  return ((int*)(&ioctl))[argc];
+                  ^~~~~
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/bits/ioctl.h:56:5: note: candidate function
+int ioctl(int __fd, unsigned __request, ...) __overloadable __enable_if(1, "") __RENAME(ioctl);
+    ^
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/bits/ioctl.h:36:5: note: candidate function
+int ioctl(int __fd, int __request, ...);
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctlsocket exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_99279"
+[1/2] Building C object CMakeFiles/cmTC_99279.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_99279.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'ioctlsocket'
+  return ((int*)(&ioctlsocket))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctlsocket
+  return ((int*)(&ioctlsocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the IoctlSocket exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_2aad8"
+[1/2] Building C object CMakeFiles/cmTC_2aad8.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_2aad8.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'IoctlSocket'
+  return ((int*)(&IoctlSocket))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IoctlSocket
+  return ((int*)(&IoctlSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcmpi exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_b18e0"
+[1/2] Building C object CMakeFiles/cmTC_b18e0.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_b18e0.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'strcmpi'; did you mean 'strcmp'?
+  return ((int*)(&strcmpi))[argc];
+                  ^~~~~~~
+                  strcmp
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/string.h:102:5: note: 'strcmp' declared here
+int strcmp(const char* __lhs, const char* __rhs) __attribute_pure__;
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmpi
+  return ((int*)(&strcmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the stricmp exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_adbb2"
+[1/2] Building C object CMakeFiles/cmTC_adbb2.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_adbb2.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'stricmp'
+  return ((int*)(&stricmp))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stricmp
+  return ((int*)(&stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncmpi exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_d7f79"
+[1/2] Building C object CMakeFiles/cmTC_d7f79.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_d7f79.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'strncmpi'; did you mean 'strncmp'?
+  return ((int*)(&strncmpi))[argc];
+                  ^~~~~~~~
+                  strncmp
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/string.h:137:5: note: 'strncmp' declared here
+int strncmp(const char* __lhs, const char* __rhs, size_t __n) __attribute_pure__;
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strnicmp exist failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_b75cd"
+[1/2] Building C object CMakeFiles/cmTC_b75cd.dir/CheckSymbolExists.c.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_b75cd.dir/CheckSymbolExists.c.o   -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'strnicmp'; did you mean 'strncmp'?
+  return ((int*)(&strnicmp))[argc];
+                  ^~~~~~~~
+                  strncmp
+/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/string.h:137:5: note: 'strncmp' declared here
+int strncmp(const char* __lhs, const char* __rhs, size_t __n) __attribute_pure__;
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnicmp
+  return ((int*)(&strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_6ffd2"
+[1/2] Building CXX object CMakeFiles/cmTC_6ffd2.dir/src.cxx.o
+FAILED: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot   -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/android/support/include -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++14 -frtti -fexceptions -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654 -fPIE   -wd654 -o CMakeFiles/cmTC_6ffd2.dir/src.cxx.o -c /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/src.cxx
+clang++: error: unknown argument: '-wd654'
+clang++: error: unknown argument: '-wd654'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int main() { return 0; }

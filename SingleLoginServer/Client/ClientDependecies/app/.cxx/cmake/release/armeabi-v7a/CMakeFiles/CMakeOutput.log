@@ -1,0 +1,2582 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Darwin - 18.7.0 - x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_bd218"
+[1/2] Building C object CMakeFiles/cmTC_bd218.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_bd218
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_0cd21"
+[1/2] Building C object CMakeFiles/cmTC_0cd21.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_0cd21
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+Target: armv7-none-linux-android16
+Thread model: posix
+InstalledDir: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
+ "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm -pie -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_0cd21 /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_0cd21.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_0cd21"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_0cd21.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_0cd21]
+  ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
+  ignore line: [Target: armv7-none-linux-android16]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  link line: [ "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm -pie -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_0cd21 /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_0cd21.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
+    arg [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-X] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0cd21] ==> ignore
+    arg [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm]
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib]
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libunwind.a] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_0cd21.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  implicit libs: [dl;c;dl]
+  implicit dirs: [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a;/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm;/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_38682"
+[1/2] Building C object CMakeFiles/cmTC_38682.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_38682
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_4f43d"
+[1/2] Building C object CMakeFiles/cmTC_4f43d.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_4f43d
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_35355"
+[1/2] Building C object CMakeFiles/cmTC_35355.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_35355
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_d24ea"
+[1/2] Building CXX object CMakeFiles/cmTC_d24ea.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_d24ea
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_28f62"
+[1/2] Building CXX object CMakeFiles/cmTC_28f62.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_28f62
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+Target: armv7-none-linux-android16
+Thread model: posix
+InstalledDir: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
+ "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm -pie -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_28f62 /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_28f62.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_28f62"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_28f62.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_28f62]
+  ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
+  ignore line: [Target: armv7-none-linux-android16]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  link line: [ "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm -pie -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_28f62 /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_28f62.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
+    arg [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-X] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_28f62] ==> ignore
+    arg [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm]
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib]
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libunwind.a] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_28f62.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  implicit libs: [m;dl;c;dl]
+  implicit dirs: [/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a;/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm;/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_6e937"
+[1/2] Building CXX object CMakeFiles/cmTC_6e937.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_6e937
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_4a647"
+[1/2] Building CXX object CMakeFiles/cmTC_4a647.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_4a647
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_a8664"
+[1/2] Building CXX object CMakeFiles/cmTC_a8664.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_a8664
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_5ee9b"
+[1/2] Building C object CMakeFiles/cmTC_5ee9b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5ee9b
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_70739"
+[1/2] Building C object CMakeFiles/cmTC_70739.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_70739
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_31bde"
+[1/2] Building C object CMakeFiles/cmTC_31bde.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_31bde
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_aa0ca"
+[1/2] Building C object CMakeFiles/cmTC_aa0ca.dir/OFF64_T.c.o
+[2/2] Linking C executable cmTC_aa0ca
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_f8cb2"
+[1/2] Building C object CMakeFiles/cmTC_f8cb2.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f8cb2
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_4edaf"
+[1/2] Building C object CMakeFiles/cmTC_4edaf.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4edaf
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_5a61e"
+[1/2] Building C object CMakeFiles/cmTC_5a61e.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_5a61e
+
+
+Determining if files arpa/inet.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_74371"
+[1/2] Building C object CMakeFiles/cmTC_74371.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_74371
+
+
+Determining if files arpa/nameser_compat.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_641b1"
+[1/2] Building C object CMakeFiles/cmTC_641b1.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_641b1
+
+
+Determining if files arpa/nameser.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_0d77d"
+[1/2] Building C object CMakeFiles/cmTC_0d77d.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_0d77d
+
+
+Determining if files assert.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_29953"
+[1/2] Building C object CMakeFiles/cmTC_29953.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_29953
+
+
+Determining if files errno.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_b0d4d"
+[1/2] Building C object CMakeFiles/cmTC_b0d4d.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_b0d4d
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_ecfd0"
+[1/2] Building C object CMakeFiles/cmTC_ecfd0.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_ecfd0
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_fac51"
+[1/2] Building C object CMakeFiles/cmTC_fac51.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_fac51
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_b51a3"
+[1/2] Building C object CMakeFiles/cmTC_b51a3.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_b51a3
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_1c2a0"
+[1/2] Building C object CMakeFiles/cmTC_1c2a0.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_1c2a0
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_301be"
+[1/2] Building C object CMakeFiles/cmTC_301be.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_301be
+
+
+Determining if files netdb.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_b138e"
+[1/2] Building C object CMakeFiles/cmTC_b138e.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_b138e
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_bb849"
+[1/2] Building C object CMakeFiles/cmTC_bb849.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_bb849
+
+
+Determining if files netinet/tcp.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_93544"
+[1/2] Building C object CMakeFiles/cmTC_93544.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_93544
+
+
+Determining if files net/if.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_96c9d"
+[1/2] Building C object CMakeFiles/cmTC_96c9d.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_96c9d
+
+
+Determining if files signal.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_95cd8"
+[1/2] Building C object CMakeFiles/cmTC_95cd8.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_95cd8
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_6d069"
+[1/2] Building C object CMakeFiles/cmTC_6d069.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_6d069
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_e2122"
+[1/2] Building C object CMakeFiles/cmTC_e2122.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_e2122
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_0601c"
+[1/2] Building C object CMakeFiles/cmTC_0601c.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_0601c
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_1d380"
+[1/2] Building C object CMakeFiles/cmTC_1d380.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_1d380
+
+
+Determining if files sys/ioctl.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_a089a"
+[1/2] Building C object CMakeFiles/cmTC_a089a.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_a089a
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_ef041"
+[1/2] Building C object CMakeFiles/cmTC_ef041.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_ef041
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_7efcd"
+[1/2] Building C object CMakeFiles/cmTC_7efcd.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_7efcd
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_5ab9b"
+[1/2] Building C object CMakeFiles/cmTC_5ab9b.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_5ab9b
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_3f433"
+[1/2] Building C object CMakeFiles/cmTC_3f433.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_3f433
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_352bc"
+[1/2] Building C object CMakeFiles/cmTC_352bc.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_352bc
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_e32ab"
+[1/2] Building C object CMakeFiles/cmTC_e32ab.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_e32ab
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_2847b"
+[1/2] Building C object CMakeFiles/cmTC_2847b.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_2847b
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_5802f"
+[1/2] Building C object CMakeFiles/cmTC_5802f.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_5802f
+
+
+Performing C SOURCE FILE Test HAVE_SOCKLEN_T succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_2c1c1"
+[1/2] Building C object CMakeFiles/cmTC_2c1c1.dir/src.c.o
+[2/2] Linking C executable cmTC_2c1c1
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			socklen_t var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_BOOL_T succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_e97e7"
+[1/2] Building C object CMakeFiles/cmTC_e97e7.dir/src.c.o
+[2/2] Linking C executable cmTC_e97e7
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			bool var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_SSIZE_T succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_76df0"
+[1/2] Building C object CMakeFiles/cmTC_76df0.dir/src.c.o
+[2/2] Linking C executable cmTC_76df0
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			ssize_t var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_LONGLONG succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_ad567"
+[1/2] Building C object CMakeFiles/cmTC_ad567.dir/src.c.o
+[2/2] Linking C executable cmTC_ad567
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			long long var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_6c6f9"
+[1/2] Building C object CMakeFiles/cmTC_6c6f9.dir/src.c.o
+[2/2] Linking C executable cmTC_6c6f9
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			sig_atomic_t var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_ADDRINFO succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_eb615"
+[1/2] Building C object CMakeFiles/cmTC_eb615.dir/src.c.o
+[2/2] Linking C executable cmTC_eb615
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct addrinfo var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_IN6_ADDR succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_ab9bb"
+[1/2] Building C object CMakeFiles/cmTC_ab9bb.dir/src.c.o
+[2/2] Linking C executable cmTC_ab9bb
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct in6_addr var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_IN6 succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_4a8f5"
+[1/2] Building C object CMakeFiles/cmTC_4a8f5.dir/src.c.o
+[2/2] Linking C executable cmTC_4a8f5
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct sockaddr_in6 var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_STORAGE succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_297b8"
+[1/2] Building C object CMakeFiles/cmTC_297b8.dir/src.c.o
+[2/2] Linking C executable cmTC_297b8
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct sockaddr_storage var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_04c86"
+[1/2] Building C object CMakeFiles/cmTC_04c86.dir/src.c.o
+[2/2] Linking C executable cmTC_04c86
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct timeval var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Determining if the AF_INET6 exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_5d8dc"
+[1/2] Building C object CMakeFiles/cmTC_5d8dc.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5d8dc
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AF_INET6
+  return ((int*)(&AF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the O_NONBLOCK exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_72a6f"
+[1/2] Building C object CMakeFiles/cmTC_72a6f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_72a6f
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_NONBLOCK
+  return ((int*)(&O_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FIONBIO exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_b02ae"
+[1/2] Building C object CMakeFiles/cmTC_b02ae.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b02ae
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONBIO
+  return ((int*)(&FIONBIO))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SIOCGIFADDR exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_f837d"
+[1/2] Building C object CMakeFiles/cmTC_f837d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f837d
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIOCGIFADDR
+  return ((int*)(&SIOCGIFADDR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the MSG_NOSIGNAL exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_b73fd"
+[1/2] Building C object CMakeFiles/cmTC_b73fd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b73fd
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MSG_NOSIGNAL
+  return ((int*)(&MSG_NOSIGNAL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the PF_INET6 exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_6d2b9"
+[1/2] Building C object CMakeFiles/cmTC_6d2b9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6d2b9
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PF_INET6
+  return ((int*)(&PF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CLOCK_MONOTONIC exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_584fe"
+[1/2] Building C object CMakeFiles/cmTC_584fe.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_584fe
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CLOCK_MONOTONIC
+  return ((int*)(&CLOCK_MONOTONIC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_b541f"
+[1/2] Building C object CMakeFiles/cmTC_b541f.dir/src.c.o
+[2/2] Linking C executable cmTC_b541f
+
+Source file was:
+
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin6_scope_id);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_LL succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_98ad9"
+[1/2] Building C object CMakeFiles/cmTC_98ad9.dir/src.c.o
+[2/2] Linking C executable cmTC_98ad9
+
+Source file was:
+int main() { int n=1234LL; return 0; }
+Determining if the connect exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_f72af"
+[1/2] Building C object CMakeFiles/cmTC_f72af.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f72af
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef connect
+  return ((int*)(&connect))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fcntl exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_08633"
+[1/2] Building C object CMakeFiles/cmTC_08633.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_08633
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_69456"
+[1/2] Building C object CMakeFiles/cmTC_69456.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_69456
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_82c46"
+[1/2] Building C object CMakeFiles/cmTC_82c46.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_82c46
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getenv exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_14123"
+[1/2] Building C object CMakeFiles/cmTC_14123.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_14123
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostbyaddr exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_47d1c"
+[1/2] Building C object CMakeFiles/cmTC_47d1c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_47d1c
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyaddr
+  return ((int*)(&gethostbyaddr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_4f597"
+[1/2] Building C object CMakeFiles/cmTC_4f597.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4f597
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostname exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_498c0"
+[1/2] Building C object CMakeFiles/cmTC_498c0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_498c0
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostname
+  return ((int*)(&gethostname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getnameinfo exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_cc47e"
+[1/2] Building C object CMakeFiles/cmTC_cc47e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cc47e
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getnameinfo
+  return ((int*)(&getnameinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_7bf6e"
+[1/2] Building C object CMakeFiles/cmTC_7bf6e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7bf6e
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the if_indextoname exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_ee046"
+[1/2] Building C object CMakeFiles/cmTC_ee046.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ee046
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef if_indextoname
+  return ((int*)(&if_indextoname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_ntop exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_d8030"
+[1/2] Building C object CMakeFiles/cmTC_d8030.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d8030
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_ntop
+  return ((int*)(&inet_ntop))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_pton exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_f2e26"
+[1/2] Building C object CMakeFiles/cmTC_f2e26.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f2e26
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the recv exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_70177"
+[1/2] Building C object CMakeFiles/cmTC_70177.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_70177
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recv
+  return ((int*)(&recv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the recvfrom exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_66173"
+[1/2] Building C object CMakeFiles/cmTC_66173.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_66173
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recvfrom
+  return ((int*)(&recvfrom))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the send exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_cca87"
+[1/2] Building C object CMakeFiles/cmTC_cca87.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cca87
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef send
+  return ((int*)(&send))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setsockopt exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_1de60"
+[1/2] Building C object CMakeFiles/cmTC_1de60.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1de60
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the socket exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_10f33"
+[1/2] Building C object CMakeFiles/cmTC_10f33.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_10f33
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef socket
+  return ((int*)(&socket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_4461d"
+[1/2] Building C object CMakeFiles/cmTC_4461d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4461d
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strdup exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_f51e6"
+[1/2] Building C object CMakeFiles/cmTC_f51e6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f51e6
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_40eab"
+[1/2] Building C object CMakeFiles/cmTC_40eab.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_40eab
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the writev exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_2ed96"
+[1/2] Building C object CMakeFiles/cmTC_2ed96.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2ed96
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function __system_property_get exists passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_7099f"
+[1/2] Building C object CMakeFiles/cmTC_7099f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7099f
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_adf4c"
+[1/2] Building C object CMakeFiles/cmTC_adf4c.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_adf4c
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_81efe"
+[1/2] Building C object CMakeFiles/cmTC_81efe.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_81efe
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file fnmatch.h exists passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_15e2a"
+[1/2] Building CXX object CMakeFiles/cmTC_15e2a.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_15e2a
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_576fc"
+[1/2] Building CXX object CMakeFiles/cmTC_576fc.dir/uint32_t.cpp.o
+[2/2] Linking CXX executable cmTC_576fc
+
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_d232e"
+[1/2] Building CXX object CMakeFiles/cmTC_d232e.dir/CheckSymbolExists.cxx.o
+[2/2] Linking CXX executable cmTC_d232e
+
+File /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_913f8"
+[1/2] Building CXX object CMakeFiles/cmTC_913f8.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_913f8
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_37316"
+[1/2] Building CXX object CMakeFiles/cmTC_37316.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_37316
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_a2b08"
+[1/2] Building CXX object CMakeFiles/cmTC_a2b08.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a2b08
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_fac21"
+[1/2] Building CXX object CMakeFiles/cmTC_fac21.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_fac21
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_10367"
+[1/2] Building CXX object CMakeFiles/cmTC_10367.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_10367
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_21f22"
+[1/2] Building CXX object CMakeFiles/cmTC_21f22.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_21f22
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_d089f"
+[1/2] Building CXX object CMakeFiles/cmTC_d089f.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d089f
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_eab50"
+[1/2] Building CXX object CMakeFiles/cmTC_eab50.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_eab50
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_427b8"
+[1/2] Building CXX object CMakeFiles/cmTC_427b8.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_427b8
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_b76cc"
+[1/2] Building CXX object CMakeFiles/cmTC_b76cc.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_b76cc
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_0250a"
+[1/2] Building CXX object CMakeFiles/cmTC_0250a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_0250a
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_fc7dd"
+[1/2] Building CXX object CMakeFiles/cmTC_fc7dd.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_fc7dd
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_d7ad0"
+[1/2] Building CXX object CMakeFiles/cmTC_d7ad0.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d7ad0
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_O3_FLAG succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_20615"
+[1/2] Building CXX object CMakeFiles/cmTC_20615.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_20615
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_CXX03_FLAG succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_46af4"
+[1/2] Building CXX object CMakeFiles/cmTC_46af4.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_46af4
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_WNO_ODR succeeded with the following output:
+Change Dir: /Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja" "cmTC_dbe53"
+[1/2] Building CXX object CMakeFiles/cmTC_dbe53.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_dbe53
+
+Source file was:
+int main() { return 0; }

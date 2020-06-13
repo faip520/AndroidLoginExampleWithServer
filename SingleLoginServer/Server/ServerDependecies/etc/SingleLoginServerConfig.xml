@@ -1,0 +1,10 @@
+<SingleLoginConfig>
+	<ServerCertPath>/single_login_src/SingleLoginServer/etc/serverCert.cert</ServerCertPath>
+	<ServerPubKeyPath>/single_login_src/SingleLoginServer/etc/serverPubkey.key</ServerPubKeyPath>
+	<ServerDecryptPrivateKeyPath>/single_login_src/SingleLoginServer/etc/serverDecryptPrivatekey.key</ServerDecryptPrivateKeyPath>
+	<ServerDatabaseName>single_login</ServerDatabaseName>
+	<ServerDatabaseIP>localhost</ServerDatabaseIP>
+	<ServerDatabaseUserName>root</ServerDatabaseUserName>
+	<ServerDatabaseUserPassword>12345678</ServerDatabaseUserPassword>
+	<ServerIPAndPort>0.0.0.0:50051</ServerIPAndPort>
+</SingleLoginConfig>

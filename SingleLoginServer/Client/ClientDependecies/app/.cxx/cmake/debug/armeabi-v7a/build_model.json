@@ -1,0 +1,78 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/willweizhao/Downloads/AndroidLoginClient",
+      "sdkFolder": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/willweizhao/Downloads/AndroidLoginClient/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/willweizhao/Downloads/AndroidLoginClient/app",
+      "makeFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/willweizhao/Downloads/AndroidLoginClient/.cxx",
+      "cxxFolder": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx",
+      "ndkFolder": "/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle",
+      "ndkVersion": "18.1.5063045",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_static",
+      "-DRUN_HAVE_POSIX_REGEX\u003d0",
+      "-DRUN_HAVE_STD_REGEX\u003d0",
+      "-DRUN_HAVE_STEADY_CLOCK\u003d0",
+      "-Dprotobuf_BUILD_PROTOC_BINARIES\u003doff",
+      "-DgRPC_BUILD_CODEGEN\u003doff",
+      "-Dhelloworld_PROTOBUF_PROTOC_EXECUTABLE\u003d/usr/local/bin/protoc",
+      "-Dhelloworld_GRPC_CPP_PLUGIN_EXECUTABLE\u003d/usr/local/bin/grpc_cpp_plugin"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dc++14 -frtti -fexceptions"
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/willweizhao/Downloads/AndroidLoginClient/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/willweizhao/Downloads/AndroidLoginClient/app/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a",
+  "jsonFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/Users/willweizhao/Downloads/AndroidLoginClient/app/build/intermediates/cmake/debug/obj/armeabi-v7a",
+  "buildCommandFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cxx/debug/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cxx/debug/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cxx/debug/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cxx/debug/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a/compile_commands.json"
+}

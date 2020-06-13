@@ -1,0 +1,23 @@
+Executable : /Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/willweizhao/Downloads/AndroidLoginClient/app
+-B/Users/willweizhao/Downloads/AndroidLoginClient/app/.cxx/cmake/debug/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/willweizhao/Downloads/AndroidLoginClient/app/build/intermediates/cmake/debug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle
+-DCMAKE_CXX_FLAGS=-std=c++14 -frtti -fexceptions
+-DCMAKE_TOOLCHAIN_FILE=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/willweizhao/Documents/SoftwareDevelopment/android-sdk-macosx/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_STL=c++_static
+-DRUN_HAVE_POSIX_REGEX=0
+-DRUN_HAVE_STD_REGEX=0
+-DRUN_HAVE_STEADY_CLOCK=0
+-Dprotobuf_BUILD_PROTOC_BINARIES=off
+-DgRPC_BUILD_CODEGEN=off
+-Dhelloworld_PROTOBUF_PROTOC_EXECUTABLE=/usr/local/bin/protoc
+-Dhelloworld_GRPC_CPP_PLUGIN_EXECUTABLE=/usr/local/bin/grpc_cpp_plugin
+jvmArgs : 
+
