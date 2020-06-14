@@ -25,7 +25,7 @@
   - 服务端会自动将运行日志文件输出到指定的日志目录，日志文件自动按日期区分不同文件
 
 ## 整体架构图
-![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/jiagou.png?raw=true)
+![Image](https://s1.ax1x.com/2020/06/14/NS6rgH.png)
 
 ## 整体流程图
 主要分成了三个流程：
