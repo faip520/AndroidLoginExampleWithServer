@@ -25,7 +25,7 @@
   - 服务端会自动将运行日志文件输出到指定的日志目录，日志文件自动按日期区分不同文件
 
 ## 整体架构图
-![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/jiagou.png)
+![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/jiagou.png?raw=true)
 
 ## 整体流程图
 主要分成了三个流程：
@@ -33,7 +33,7 @@
 - 登录流程图
 - 登录token查询流程图
 
-![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/liucheng.png)
+![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/liucheng.png?raw=true)
 
 ## 服务端接口文档
 由于使用了grpc封装，接口请求参数和返回参数都已经被封装成Java / C++对象。
