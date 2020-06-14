@@ -27,11 +27,19 @@
 ## 整体架构图
 ![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/jiagou.png)
 
-### 客户端架构图
-![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/abc.png)
-### 服务端架构图
-![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/abc.png)
 ## 整体流程图
+主要分成了三个流程：
+- 注册流程图
+- 登录流程图
+- 登录token查询流程图
+
+### 注册流程图
+![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/abc.png)
+
+### 登录流程图
+![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/abc.png)
+
+### 登录token查询流程图
 ![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/abc.png)
 
 ## 服务端接口文档
