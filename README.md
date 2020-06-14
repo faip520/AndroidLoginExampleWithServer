@@ -33,14 +33,7 @@
 - 登录流程图
 - 登录token查询流程图
 
-### 注册流程图
-![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/abc.png)
-
-### 登录流程图
-![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/abc.png)
-
-### 登录token查询流程图
-![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/abc.png)
+![Image](https://github.com/faip520/AndroidLoginExampleWithServer/blob/master/image/liucheng.png)
 
 ## 服务端接口文档
 由于使用了grpc封装，接口请求参数和返回参数都已经被封装成Java / C++对象。
