@@ -7,7 +7,7 @@
 
 using namespace std;
 
-// db工具函数，判断用户名和对应的token是否在服务端存在
+// db工具函数，判断用户名和对应的token是否在数据库中存在
 bool isUserTokenExistInDB(string single_login_server_database_name,
                           string single_login_server_database_ip,
                           string single_login_server_database_username,

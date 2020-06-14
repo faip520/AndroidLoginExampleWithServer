@@ -27,6 +27,7 @@ bool isUserTokenExistInDB(string single_login_server_database_name,
     string queryString = "select * from t_user_token where user_name='%s' and user_token='%s'";
 
     loggerD("Check user token exist in db, query string = " + queryString);
+    // 执行sql语句，拿到执行结果
     MySQLQueryResult queryResult = mySQLQuery(
                     single_login_server_database_name.c_str(), 
                     single_login_server_database_ip.c_str(), 
@@ -51,12 +52,14 @@ int saveUserTokenToDB(string single_login_server_database_name,
                       string single_login_server_database_password,
                       string user_name, 
                       string user_token) {
+
     loggerD("Save user token to db, user name = " + user_name);
     loggerD("Save user token to db, user token = " + user_token);
 
     string insertString = "insert into t_user_token values('%s', '%s') ON DUPLICATE KEY UPDATE user_token='%s'";
 
     loggerD("Save user token to db, insert string = " + insertString);
+    // 执行sql语句，拿到执行结果
     MySQLQueryResult queryResult = mySQLQuery(
                     single_login_server_database_name.c_str(), 
                     single_login_server_database_ip.c_str(), 
@@ -83,6 +86,7 @@ bool isUserExistInDB(string single_login_server_database_name,
     string queryString = "select * from t_user where user_name='%s'";
     loggerD("Check user name exist in db, query string = " + queryString);
 
+    // 执行sql语句，拿到执行结果
     MySQLQueryResult queryResult = mySQLQuery(
                     single_login_server_database_name.c_str(), 
                     single_login_server_database_ip.c_str(), 
@@ -114,6 +118,7 @@ bool isUserAndPasswordExistInDB(string single_login_server_database_name,
     string queryString = "select * from t_user where user_name='%s'";
     loggerD("Check user name and hashed password exist in db, query string = " + queryString);
 
+    // 执行sql语句，拿到执行结果
     MySQLQueryResult queryResult = mySQLQuery(
                     single_login_server_database_name.c_str(), 
                     single_login_server_database_ip.c_str(), 
@@ -137,10 +142,12 @@ bool isUserAndPasswordExistInDB(string single_login_server_database_name,
         return false;
     }
 
+    // 获取查询到的用户bcrypt后的密码
     mysqlpp::String temp = queryResult.ares[0]["user_password"];
     string pwd_bcrypt = std::string(temp.data(),temp.length());
     loggerD("Check user name and hashed password exist in db, pwd_bcrypt = " + pwd_bcrypt);
 
+    // 通过db查询获取该用户对应的bcrypt随机盐
     string userHashSalt = getUserHashSalt(single_login_server_database_name,
                                           single_login_server_database_ip,
                                           single_login_server_database_username,
@@ -177,6 +184,7 @@ bool saveUserHashSaltToDB(string single_login_server_database_name,
     string insertString = "insert into t_user_random_hash values('%s', '%s')";
     loggerD("Save user has salt to db, insert string = " + insertString);
 
+    // 执行sql语句，拿到执行结果
     MySQLQueryResult queryResult = mySQLQuery(
                     single_login_server_database_name.c_str(), 
                     single_login_server_database_ip.c_str(), 
@@ -219,6 +227,7 @@ string getUserHashSalt(string single_login_server_database_name,
 
     loggerD("Get user hash salt, query string = " + queryString);
 
+    // 执行sql语句，拿到执行结果
     MySQLQueryResult queryResult = mySQLQuery(
                     single_login_server_database_name.c_str(), 
                     single_login_server_database_ip.c_str(), 
@@ -239,6 +248,7 @@ string getUserHashSalt(string single_login_server_database_name,
         return "";
     }
 
+    // 拿到mysql查询结果中的用户随机盐字段
     mysqlpp::String temp = queryResult.ares[0]["user_hash_salt"];
     string user_hash_salt = std::string(temp.data(),temp.length());
     loggerD("Get user hash salt, final result = " + user_hash_salt);
@@ -255,6 +265,7 @@ int saveUserInfoToDB(string single_login_server_database_name,
                      string user_password) {
     loggerD("Save user info to db, user name = " + user_name);
 
+    // 判断用户是否已经存在，已经存在的话返回注册错误
     if (isUserExistInDB(single_login_server_database_name,
                         single_login_server_database_ip,
                         single_login_server_database_username,
@@ -267,6 +278,7 @@ int saveUserInfoToDB(string single_login_server_database_name,
     }
 
     string hashSalt;
+    // 给用户生成随机盐并保存起来
     bool saveSaltResult = saveUserHashSaltToDB(single_login_server_database_name,
                                                single_login_server_database_ip,
                                                single_login_server_database_username,
@@ -280,7 +292,7 @@ int saveUserInfoToDB(string single_login_server_database_name,
     }
     
     BCrypt bcrypt;
-    // 加上随机盐后在bcrypt hash
+    // 用户信息表的密码字段，只保存加上随机盐后在bcrypt hash结果
     user_password = bcrypt.generateHash(user_password + hashSalt);
 
     loggerD("Save user info to db, user password bcrypt = " + user_password);
@@ -288,6 +300,7 @@ int saveUserInfoToDB(string single_login_server_database_name,
     string insertString = "insert into t_user values('%s', '%s')";
     loggerD("Save user info to db, insert string = " + insertString);
 
+    // 执行sql语句，拿到执行结果
     MySQLQueryResult queryResult = mySQLQuery(
                     single_login_server_database_name.c_str(), 
                     single_login_server_database_ip.c_str(), 

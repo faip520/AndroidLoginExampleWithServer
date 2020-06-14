@@ -7,6 +7,9 @@ import android.util.Log;
 import com.faip.piggy.djinni.ServerMessageGetterImpl;
 import com.sirvar.robin.RobinActivity;
 
+/**
+ * App主界面的Activity类
+ */
 public class MainActivity extends RobinActivity {
 
     // 本地server的ip地址和端口号
@@ -17,13 +20,16 @@ public class MainActivity extends RobinActivity {
     private Thread mThread;
 
     /**
-     *
-     * @param savedInstanceState
+     * Android系统的onCreate回调
+     * @param savedInstanceState 系统回调的状态
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        Log.d("Faip", "OnCreate called!");
+
+        // 初始化Grpc客户端实现
         ServerMessageGetterImpl.init();
 
         // 设置登录注册等页面的显示文本
@@ -32,20 +38,31 @@ public class MainActivity extends RobinActivity {
         setForgotPasswordTitle("");
     }
 
+    /**
+     * 用户点击登录后的回调
+     *
+     * @param user_name 用户输入的用户名
+     * @param user_password 用户输入的密码
+     */
     @Override
     protected void onLogin(final String user_name, final String user_password) {
+        Log.d("Faip", "On login, user name = " + user_name);
+
         if (TextUtils.isEmpty(user_name)) {
+            Log.d("Faip", "On login, empty user name!");
             ToastHelper.showToast(MainActivity.this, "Empty user name!");
             return;
         }
 
         if (TextUtils.isEmpty(user_password)) {
+            Log.d("Faip", "On login, empty user password!");
             ToastHelper.showToast(MainActivity.this, "Empty user password!");
             return;
         }
 
         // 用户名合法性判断
         if (!StringUtils.isStringOnlyNumberAndLetter(user_name)) {
+            Log.d("Faip", "On login, user name malformed = " + user_name);
             ToastHelper.showToast(
                     MainActivity.this, "User name only support number and letter!");
             return;
@@ -53,6 +70,7 @@ public class MainActivity extends RobinActivity {
 
         // 密码合法性判断
         if (!StringUtils.isStringOnlyNumberAndLetter(user_password)) {
+            Log.d("Faip", "On login, user name malformed!");
             ToastHelper.showToast(
                     MainActivity.this, "User password only support number and letter!");
             return;
@@ -60,12 +78,14 @@ public class MainActivity extends RobinActivity {
 
         // 用户名最多支持到10位
         if (user_name.length() > 10) {
+            Log.d("Faip", "On login, user name more than 10!");
             ToastHelper.showToast(MainActivity.this, "User name len more than 10!");
             return;
         }
 
         // 用户密码最多支持到10位
         if (user_password.length() > 10) {
+            Log.d("Faip", "On login, user password more than 10!");
             ToastHelper.showToast(MainActivity.this, "User password len more than 10!");
             return;
         }
@@ -74,11 +94,13 @@ public class MainActivity extends RobinActivity {
         if (mLoginRunnable != null) {
             mLoginRunnable.needExit = true;
         }
+
+        // 关闭上一次的轮询
         if (mThread != null) {
             mThread.interrupt();
         }
 
-        Log.d("Faip", "On login user = " + user_name);
+
 
         mLoginRunnable = new LoginRunnable() {
             @Override
@@ -125,20 +147,33 @@ public class MainActivity extends RobinActivity {
         mThread.start();
     }
 
+    /**
+     * 用户点击注册按钮的回调
+     *
+     * @param name     用户输入的注册用户名
+     * @param password 用户输入的用户密码
+     */
     @Override
     protected void onSignup(final String name, String email, final String password) {
+        Log.d("Faip", "On sign up, user name = " + name);
+
+        // 用户名是否为空
         if (TextUtils.isEmpty(name)) {
+            Log.d("Faip", "On sign up, user name empty!");
             ToastHelper.showToast(MainActivity.this, "Empty user name!");
             return;
         }
 
+        // 用户密码是否为空
         if (TextUtils.isEmpty(password)) {
+            Log.d("Faip", "On sign up, user password empty!");
             ToastHelper.showToast(MainActivity.this, "Empty user password!");
             return;
         }
 
         // 用户名合法性判断
         if (!StringUtils.isStringOnlyNumberAndLetter(name)) {
+            Log.d("Faip", "On sign up, user name malformed!!");
             ToastHelper.showToast(
                     MainActivity.this, "User name only support number and letter!");
             return;
@@ -146,6 +181,7 @@ public class MainActivity extends RobinActivity {
 
         // 密码合法性判断
         if (!StringUtils.isStringOnlyNumberAndLetter(password)) {
+            Log.d("Faip", "On sign up, user password malformed!!");
             ToastHelper.showToast(
                     MainActivity.this, "User password only support number and letter!");
             return;
@@ -153,24 +189,28 @@ public class MainActivity extends RobinActivity {
 
         // 用户名最多支持到10位
         if (name.length() > 16) {
+            Log.d("Faip", "On sign up, user name more than 16!");
             ToastHelper.showToast(MainActivity.this, "User name len more than 16!");
             return;
         }
 
-        // 用户名最多支持到10位
+        // 用户名最少8位
         if (name.length() < 8) {
+            Log.d("Faip", "On sign up, user name less than 8!");
             ToastHelper.showToast(MainActivity.this, "User name len less than 8!");
             return;
         }
 
-        // 用户名最多支持到10位
+        // 用户密码最少8位
         if (password.length() < 8) {
+            Log.d("Faip", "On sign up, user password less than 8!");
             ToastHelper.showToast(MainActivity.this, "Password len less than 8!");
             return;
         }
 
-        // 用户密码最多支持到10位
+        // 用户密码最多支持到16位
         if (password.length() > 16) {
+            Log.d("Faip", "On sign up, user password more than 16!");
             ToastHelper.showToast(MainActivity.this, "User password len more than 16!");
             return;
         }
@@ -209,6 +249,7 @@ public class MainActivity extends RobinActivity {
             mLoginRunnable.needExit = true;
         }
 
+        // 退出前尝试清理activity的资源
         if (mThread != null) {
             mThread.interrupt();
         }

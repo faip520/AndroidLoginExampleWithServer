@@ -24,7 +24,7 @@ string wstringToString(const wstring param) {
     return converter.to_bytes(param);
 }
 
-// 工具函数，传入json跟节点对象和字段名，返回改字段对应的值
+// 工具函数，传入json的跟节点对象和字段名，返回该字段对应的值
 string parseJsonStringElement(JSONObject root, wchar_t* elementName) {
     if (elementName == nullptr) {
         return "";
@@ -38,7 +38,7 @@ string parseJsonStringElement(JSONObject root, wchar_t* elementName) {
     return "";
 }
 
-// 工具函数，负责加载配置文件并返回加载成功后的所有配置
+// 工具函数，负责加载配置文件并返回加载成功后的所有配置，以结构体的方式返回
 ConfigFileLoadResult loadConfigFile(string configFilePath) {
 
     loggerD("Load config file, file path = " + configFilePath);
@@ -64,43 +64,43 @@ ConfigFileLoadResult loadConfigFile(string configFilePath) {
 
     JSONObject root = value->AsObject();
 
-    // 加载服务器证书 
+    // 加载服务器证书配置
     string serverCertPath = parseJsonStringElement(root, L"ServerCertPath");
     loggerD("Load config file, serverCertPath = " + serverCertPath);
     result.ServerCert = loadFileToString(serverCertPath);
     loggerD("Load config file, serverCert  = " + result.ServerCert);
 
-    // 加载服务器证书对应的私钥 
+    // 加载服务器证书对应的私钥配置 
     string serverCertPrivateKeyPath = parseJsonStringElement(root, L"ServerCertPrivateKeyPath");
     loggerD("Load config file, serverCertPrivateKeyPath = " + serverCertPrivateKeyPath);
     result.ServerCertPrivateKey = loadFileToString(serverCertPrivateKeyPath);
 
-    // 加载服务器解密用私钥 
+    // 加载服务器解密用私钥配置
     string serverDecryptPrivateKeyPath = parseJsonStringElement(root, L"ServerDecryptPrivateKeyPath");
     loggerD("Load config file, serverDecryptPrivateKeyPath = " + serverDecryptPrivateKeyPath);
     result.ServerDecryptPrivateKey = loadFileToString(serverDecryptPrivateKeyPath);
     
-    // 加载数据库名
+    // 加载数据库名配置
     result.ServerDatabaseName = parseJsonStringElement(root, L"ServerDatabaseName");
     loggerD("Load config file, ServerDatabaseName = " + result.ServerDatabaseName);
     
-    // 加载数据库连接ip
+    // 加载数据库连接ip配置
     result.ServerDatabaseIP = parseJsonStringElement(root, L"ServerDatabaseIP");
     loggerD("Load config file, ServerDatabaseIP = " + result.ServerDatabaseIP);
     
-    // 加载数据库连接用户名
+    // 加载数据库连接用户名配置
     result.ServerDatabaseUserName = parseJsonStringElement(root, L"ServerDatabaseUserName");
     loggerD("Load config file, ServerDatabaseUserName = " + result.ServerDatabaseUserName);
     
-    // 加载数据库连接密码
+    // 加载数据库连接密码配置
     result.ServerDatabaseUserPassword = parseJsonStringElement(root, L"ServerDatabaseUserPassword");
     loggerD("Load config file, ServerDatabaseUserPassword = " + result.ServerDatabaseUserPassword);
     
-    // 加载服务器ip和端口
+    // 加载服务器ip和端口配置
     result.ServerIPAndPort = parseJsonStringElement(root, L"ServerIPAndPort");
     loggerD("Load config file, ServerIPAndPort = " + result.ServerIPAndPort);
 
-    // 所有字段都加载到内容，才算整体加载成功
+    // 所有字段都加载到非空内容，才算整体加载成功
     result.loadResultAllOK = !result.ServerCert.empty() &&
                              !result.ServerCertPrivateKey.empty() &&
                              !result.ServerDecryptPrivateKey.empty() &&
@@ -111,6 +111,4 @@ ConfigFileLoadResult loadConfigFile(string configFilePath) {
                              !result.ServerIPAndPort.empty();
 
     return result;
-
-    
 }

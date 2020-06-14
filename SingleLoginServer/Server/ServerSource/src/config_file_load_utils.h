@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// 配置文件加载时返回的结构体
 typedef struct ConfigFileLoadResult {
     // 服务端配置的证书文件
     string ServerCert = "";

@@ -8,6 +8,7 @@
 using namespace std;
 using namespace mysqlpp;
 
+// MySQL执行方法返回的执行结果结构体
 typedef struct MySQLQueryResult {
     int queryResultRowCount = -1;
     std::string error = "";
@@ -15,6 +16,7 @@ typedef struct MySQLQueryResult {
     StoreQueryResult ares;
 } MySQLQueryResult;
 
+// db工具方法，执行MySQL语句并返回执行结果
 MySQLQueryResult mySQLQuery(const char* dbName, 
                             const char* dbIP, 
                             const char* dbUserName, 

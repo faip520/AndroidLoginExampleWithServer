@@ -11,6 +11,7 @@ static std::mt19937                    gen(rd());
 static std::uniform_int_distribution<> dis(0, 15);
 static std::uniform_int_distribution<> dis2(8, 11);
 
+// 工具方法，生成随机的uuid并返回
 std::string generate_uuid_v4() {
     std::stringstream ss;
     int i;
@@ -35,6 +36,6 @@ std::string generate_uuid_v4() {
     for (i = 0; i < 12; i++) {
         ss << dis(gen);
     };
-    
+
     return ss.str();
 }
